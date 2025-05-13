@@ -1,5 +1,5 @@
 accessibilityJob: false
-alwaysRunPostSteps: false
+alwaysRunPostSteps: true
 appium: null
 autosplit: true
 betaFeature:
@@ -71,9 +71,12 @@ framework:
     version: ""
     workingDirectory: ""
 globalPost:
-    commands: []
+    commands:
+        - ls -la
+        - pwd
+        - cd build; ls -la
     completed: false
-    mode: ""
+    mode: remote
     runson: ""
     shell: ""
     workingDirectory: ""
@@ -89,7 +92,7 @@ globalPre:
     type: ""
     workingDirectory: ""
     yamlPath: null
-jobID: 6ce3c98b-3d30-4646-9558-e9295e5fa61b
+jobID: 4473ef39-1159-4c95-b64c-f06490c3f392
 jobLabel:
     - Karate
     - API
@@ -99,7 +102,7 @@ maxRetriesPreSteps: 0
 meta: {}
 partialReports:
     type: html
-    location: build/karate-reports/karate-summary.html
+    location: build/karate-reports
     frameworkName: karate
     email:
         to: []
@@ -155,6 +158,21 @@ triggerMode: false
 tunnelOpts:
     testsPerTunnel: 10
 unzipPayload: false
+uploadArtefacts:
+    - email:
+        linkValidity: 0
+        metaInfo: []
+        to: []
+      name: Log File
+      path:
+        - target/
+    - email:
+        linkValidity: 0
+        metaInfo: []
+        to: []
+      name: Karate Report
+      path:
+        - build/karate-reports/
 user: dhakshathamin
 version: "0.1"
 waitForArtefactsUpload: false

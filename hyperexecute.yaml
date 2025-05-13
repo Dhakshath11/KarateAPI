@@ -8,6 +8,8 @@ runtime:
   language: java
   version: 17
 
+alwaysRunPostSteps: true
+
 testDiscovery:
   type: raw
   mode: remote
@@ -30,6 +32,21 @@ differentialUpload:
 
 report: true
 partialReports:
-  location: build/karate-reports/karate-summary.html
+  location: build/karate-reports
   type: html
   frameworkName: karate
+
+uploadArtefacts:
+  - name: Log File
+    path:
+      - target/
+  - name: Karate Report
+    path:
+        - build/karate-reports/
+
+globalPost:
+  mode: remote
+  commands:
+    - ls -la
+    - pwd
+    - cd build; ls -la
