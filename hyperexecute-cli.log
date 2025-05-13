@@ -1,0 +1,755 @@
+{"level":"debug","time":"2025-05-13T13:08:48.398+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-05-13T13:08:49.184+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.272} "}
+{"level":"debug","time":"2025-05-13T13:08:52.299+0530","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-13T13:08:52.300+0530","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-13T13:08:52.300+0530","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:08:52.300+0530","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:08:53.212+0530","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : /Users/dhakshath/Documents/KarateAPI"}
+{"level":"debug","time":"2025-05-13T13:08:53.214+0530","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-13T13:08:53.214+0530","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-13T13:08:53.214+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:08:53.214+0530","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36mmac\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:08:53.214+0530","caller":"models/HypertestYamlConfig.go:743","msg":"Concurrency:    \u001b[36m4\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:08:53.215+0530","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:08:53.215+0530","caller":"models/HypertestYamlConfig.go:839","msg":"Cache Directories:"}
+{"level":"info","time":"2025-05-13T13:08:53.215+0530","caller":"models/HypertestYamlConfig.go:841","msg":"    \u001b[36m.gradle\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:08:53.215+0530","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-13T13:08:53.215+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:08:53.215+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-05-13T13:08:56.605+0530","caller":"core/lifecycle.go:516","msg":"Job ID: 5f94219f-7969-423e-8c8a-b3df1fc99ff2"}
+{"level":"debug","time":"2025-05-13T13:08:56.605+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-13T13:08:56.606+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-13T13:08:56.606+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-05-13T13:08:56.606+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/dhakshath/Documents/KarateAPI"}
+{"level":"debug","time":"2025-05-13T13:08:56.638+0530","caller":"core/lifecycle.go:659","msg":"Zip file size: 111.65 kB"}
+{"level":"debug","time":"2025-05-13T13:08:56.638+0530","caller":"core/lifecycle.go:669","msg":"Archive location: /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-5f94219f-7969-423e-8c8a-b3df1fc99ff2.zip\n"}
+{"level":"debug","time":"2025-05-13T13:08:56.638+0530","caller":"storage/azure.go:59","msg":"Payload size: 111.65 kB, source path /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-5f94219f-7969-423e-8c8a-b3df1fc99ff2.zip"}
+{"level":"debug","time":"2025-05-13T13:08:57.853+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-05-13T13:09:09.293+0530","caller":"storage/azure.go:114","msg":"File upload completed in 12.654642542s"}
+{"level":"debug","time":"2025-05-13T13:09:09.293+0530","caller":"receptionmanager/setup.go:277","msg":"only one runtime entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-05-13T13:09:09.293+0530","caller":"receptionmanager/setup.go:296","msg":"number of entries in partialreports: 1, switching to new yaml format"}
+{"level":"debug","time":"2025-05-13T13:09:09.294+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/dhakshath/Documents/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:09:09.294+0530","caller":"storage/azure.go:59","msg":"Payload size: 3.58 kB, source path /Users/dhakshath/Documents/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-05-13T13:09:19.422+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.128020083s"}
+{"level":"debug","time":"2025-05-13T13:09:19.422+0530","caller":"core/lifecycle.go:696","msg":"Successfully deleted code archive: /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-5f94219f-7969-423e-8c8a-b3df1fc99ff2.zip\n"}
+{"level":"debug","time":"2025-05-13T13:09:19.423+0530","caller":"storage/azure.go:59","msg":"Payload size: 678 B, source path mask-5f94219f-7969-423e-8c8a-b3df1fc99ff2.yaml"}
+{"level":"info","time":"2025-05-13T13:09:29.492+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.069824875s"}
+{"level":"debug","time":"2025-05-13T13:09:31.931+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747121970620152037RXQ"}
+{"level":"debug","time":"2025-05-13T13:09:31.932+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747121970620152037RXQ"}
+{"level":"info","time":"2025-05-13T13:09:35.398+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4m5f94219f-7969-423e-8c8a-b3df1fc99ff2\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:09:35.398+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=5f94219f-7969-423e-8c8a-b3df1fc99ff2\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-05-13T13:09:37.618+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (3s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:09:45.752+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:09:57.019+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (11s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:10:00.944+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (4s)\u001b[22m\n"}
+{"level":"debug","time":"2025-05-13T13:10:01.549+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122000180215794KTW"}
+{"level":"debug","time":"2025-05-13T13:10:01.549+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122000180215794KTW"}
+{"level":"debug","time":"2025-05-13T13:10:01.549+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122000222105110CIE"}
+{"level":"debug","time":"2025-05-13T13:10:01.549+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122000222105110CIE"}
+{"level":"debug","time":"2025-05-13T13:10:01.549+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122000264636737ADX"}
+{"level":"debug","time":"2025-05-13T13:10:01.549+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122000264636737ADX"}
+{"level":"debug","time":"2025-05-13T13:10:01.549+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122000314582999NYX"}
+{"level":"debug","time":"2025-05-13T13:10:01.549+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122000314582999NYX"}
+{"level":"info","time":"2025-05-13T13:10:07.458+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mcache-download (2s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:10:14.563+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:10:25.840+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mpre (12s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:10:27.364+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mcache-download (3s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:10:27.800+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mcache-download (3s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:10:34.198+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-download (4s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:10:38.889+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2msetup-runtime (11s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:10:43.660+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2msetup-runtime (17s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:10:44.931+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [3]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:23 (15s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:10:45.493+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2msetup-runtime (11s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:10:47.678+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [3]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:18 (3s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:11:04.052+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mpre (19s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:11:05.467+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (14s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:11:07.261+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mpre (24s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:11:30.098+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [2]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:30 (19s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:11:30.686+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [5]  \u001b[2msrc/test/resources/apis/features/DeleteRequest.feature:10 (22s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:11:34.032+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [4]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:16 (24s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:11:34.526+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [2]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:26 (5s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:11:36.434+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [4]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:10 (3s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:11:37.183+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [5]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:38 (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:11:38.798+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [4]  \u001b[2msrc/test/resources/apis/features/PutRequest.feature:10 (3s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:11:39.691+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [5]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:34 (3s)\u001b[22m\n"}
+{"level":"debug","time":"2025-05-13T13:11:42.002+0530","caller":"jobmanager/sse_setup.go:141","msg":"\n\nJob status"}
+{"level":"debug","time":"2025-05-13T13:11:42.002+0530","caller":"core/lifecycle.go:874","msg":"Context canceled"}
+{"level":"info","time":"2025-05-13T13:11:42.002+0530","caller":"core/lifecycle.go:877","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2025-05-13T13:11:42.003+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=5f94219f-7969-423e-8c8a-b3df1fc99ff2\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-05-13T13:11:42.003+0530","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-13T13:11:42.003+0530","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-05-13T13:11:42.883+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n\u001b[102m\u001b[1m\u001b[30m PARTIALLY COMPLETED \u001b[0m\u001b[22m\u001b[0m\n"}
+{"level":"info","time":"2025-05-13T13:11:42.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTest Execution Time\u001b[22m:                  \u001b[92m1m9s\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:11:42.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mJob Duration Time\u001b[22m:                    2m5s"}
+{"level":"info","time":"2025-05-13T13:11:42.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Tasks\u001b[22m:                          5"}
+{"level":"info","time":"2025-05-13T13:11:42.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mCumulative Time Consumed\u001b[22m:             5m9s"}
+{"level":"info","time":"2025-05-13T13:11:42.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Stages\u001b[22m:                         16"}
+{"level":"info","time":"2025-05-13T13:11:42.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass discovery stage percentage\u001b[22m:      100.00%"}
+{"level":"info","time":"2025-05-13T13:11:42.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed discovery stage percentage\u001b[22m:    0.00%"}
+{"level":"info","time":"2025-05-13T13:11:42.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass pre stage percentage\u001b[22m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:11:42.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed pre stage percentage\u001b[22m:          0.00%"}
+{"level":"info","time":"2025-05-13T13:11:42.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass test stage percentage\u001b[22m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:11:42.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed test stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-05-13T13:11:42.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass post stage percentage\u001b[22m:           0.00%"}
+{"level":"info","time":"2025-05-13T13:11:42.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed post stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-05-13T13:11:42.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed Tasks\u001b[22m:                         0"}
+{"level":"info","time":"2025-05-13T13:11:42.884+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-05-13T13:12:12.003+0530","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-05-13T13:12:49.742+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-05-13T13:12:50.612+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.272} "}
+{"level":"debug","time":"2025-05-13T13:12:53.481+0530","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-13T13:12:53.482+0530","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-13T13:12:53.482+0530","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:12:53.482+0530","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:12:54.363+0530","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : /Users/dhakshath/Documents/KarateAPI"}
+{"level":"debug","time":"2025-05-13T13:12:54.365+0530","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-13T13:12:54.365+0530","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-13T13:12:54.365+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:12:54.365+0530","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36mmac\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:12:54.365+0530","caller":"models/HypertestYamlConfig.go:743","msg":"Concurrency:    \u001b[36m4\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:12:54.365+0530","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:12:54.366+0530","caller":"models/HypertestYamlConfig.go:839","msg":"Cache Directories:"}
+{"level":"info","time":"2025-05-13T13:12:54.366+0530","caller":"models/HypertestYamlConfig.go:841","msg":"    \u001b[36m.gradle\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:12:54.366+0530","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-13T13:12:54.366+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:12:54.366+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-05-13T13:12:56.151+0530","caller":"core/lifecycle.go:516","msg":"Job ID: f838ece5-7461-471a-a106-4a2d936480a0"}
+{"level":"debug","time":"2025-05-13T13:12:56.152+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-13T13:12:56.153+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-13T13:12:57.257+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[.gitignore:{6789880119083260772 539 .gitignore false} .hyperexecute.yaml:{1590915880909794362 3564 .hyperexecute.yaml false} .idea:{0 0 .idea true} .idea/.gitignore:{16279786366844463540 122 .idea/.gitignore false} .idea/gradle.xml:{4659657774069657883 558 .idea/gradle.xml false} .idea/misc.xml:{16225606672018911431 354 .idea/misc.xml false} .idea/workspace.xml:{11434788426567933113 10109 .idea/workspace.xml false} build.gradle:{6402680117770863533 524 build.gradle false} cucumber_context.json:{10190887627203814083 8228 cucumber_context.json false} gradle:{0 0 gradle true} gradle/wrapper:{0 0 gradle/wrapper true} gradle/wrapper/gradle-wrapper.jar:{8142569059071412300 60756 gradle/wrapper/gradle-wrapper.jar false} gradle/wrapper/gradle-wrapper.properties:{5454816729783508739 231 gradle/wrapper/gradle-wrapper.properties false} gradlew:{7922637049471180284 8070 gradlew false} gradlew.bat:{16664544825820606439 2763 gradlew.bat false} hyperexecute.yaml:{11102354938538413259 654 hyperexecute.yaml false} settings.gradle:{14290926963802788158 30 settings.gradle false} snooper.log:{10362262988316453443 14464 snooper.log false} src:{0 0 src true} src/test:{0 0 src/test true} src/test/java:{0 0 src/test/java true} src/test/java/APIRunner.java:{7850812801501036521 1032 src/test/java/APIRunner.java false} src/test/java/ParallelRunner.java:{15835990256694852921 643 src/test/java/ParallelRunner.java false} src/test/java/TagRunner.java:{16225404343123923587 824 src/test/java/TagRunner.java false} src/test/java/TestRunner.java:{9767021977487237997 793 src/test/java/TestRunner.java false} src/test/resources:{0 0 src/test/resources true} src/test/resources/Karate-config.js:{16327507150798637260 338 src/test/resources/Karate-config.js false} src/test/resources/apis:{0 0 src/test/resources/apis true} src/test/resources/apis/features:{0 0 src/test/resources/apis/features true} src/test/resources/apis/features/DeleteRequest.feature:{7215814100712510453 302 src/test/resources/apis/features/DeleteRequest.feature false} src/test/resources/apis/features/GetRequest.feature:{15584434973548180755 977 src/test/resources/apis/features/GetRequest.feature false} src/test/resources/apis/features/PostRequest.feature:{14869628535307320508 964 src/test/resources/apis/features/PostRequest.feature false} src/test/resources/apis/features/PutRequest.feature:{12666796336522385911 357 src/test/resources/apis/features/PutRequest.feature false} src/test/resources/logback-test.xml:{6758398796316335698 711 src/test/resources/logback-test.xml false} target:{0 0 target true} target/karate.log:{16462827523834632322 448044 target/karate.log false}]"}
+{"level":"debug","time":"2025-05-13T13:12:57.258+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/dhakshath/Documents/KarateAPI"}
+{"level":"debug","time":"2025-05-13T13:12:57.275+0530","caller":"core/lifecycle.go:659","msg":"Zip file size: 2.51 kB"}
+{"level":"debug","time":"2025-05-13T13:12:57.275+0530","caller":"core/lifecycle.go:669","msg":"Archive location: /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-f838ece5-7461-471a-a106-4a2d936480a0.zip\n"}
+{"level":"debug","time":"2025-05-13T13:12:57.276+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.51 kB, source path /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-f838ece5-7461-471a-a106-4a2d936480a0.zip"}
+{"level":"debug","time":"2025-05-13T13:12:57.462+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-05-13T13:13:07.420+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.144454334s"}
+{"level":"debug","time":"2025-05-13T13:13:07.420+0530","caller":"receptionmanager/setup.go:277","msg":"only one runtime entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-05-13T13:13:07.421+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-05-13T13:13:07.421+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/dhakshath/Documents/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:13:07.421+0530","caller":"storage/azure.go:59","msg":"Payload size: 3.79 kB, source path /Users/dhakshath/Documents/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-05-13T13:13:17.491+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.069585833s"}
+{"level":"debug","time":"2025-05-13T13:13:17.491+0530","caller":"core/lifecycle.go:696","msg":"Successfully deleted code archive: /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-f838ece5-7461-471a-a106-4a2d936480a0.zip\n"}
+{"level":"debug","time":"2025-05-13T13:13:17.492+0530","caller":"storage/azure.go:59","msg":"Payload size: 769 B, source path mask-f838ece5-7461-471a-a106-4a2d936480a0.yaml"}
+{"level":"info","time":"2025-05-13T13:13:27.601+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.109240292s"}
+{"level":"debug","time":"2025-05-13T13:13:29.745+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122208596248642GWW"}
+{"level":"debug","time":"2025-05-13T13:13:29.746+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122208596248642GWW"}
+{"level":"info","time":"2025-05-13T13:13:33.018+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4mf838ece5-7461-471a-a106-4a2d936480a0\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:13:33.018+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=f838ece5-7461-471a-a106-4a2d936480a0\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-05-13T13:13:34.981+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (2s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:13:42.634+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:13:54.006+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (11s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:13:57.693+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (4s)\u001b[22m\n"}
+{"level":"debug","time":"2025-05-13T13:13:58.247+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122236933684661YAM"}
+{"level":"debug","time":"2025-05-13T13:13:58.247+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122236933684661YAM"}
+{"level":"debug","time":"2025-05-13T13:13:58.247+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122236977411447TGK"}
+{"level":"debug","time":"2025-05-13T13:13:58.247+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122236977411447TGK"}
+{"level":"debug","time":"2025-05-13T13:13:58.247+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122237019121889FCB"}
+{"level":"debug","time":"2025-05-13T13:13:58.247+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122237019121889FCB"}
+{"level":"debug","time":"2025-05-13T13:13:58.247+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122237068432963EIR"}
+{"level":"debug","time":"2025-05-13T13:13:58.247+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122237068432963EIR"}
+{"level":"info","time":"2025-05-13T13:14:01.567+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:01.723+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mcache-download (2s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:01.742+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mcache-download (2s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:03.828+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-download (3s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:08.309+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:08.316+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:08.318+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:11.916+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:17.345+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mpre (9s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:18.896+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mpre (11s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:19.475+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mpre (11s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:22.260+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (10s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:34.612+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [3]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:23 (15s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:35.355+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [4]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:16 (13s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:36.201+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [5]  \u001b[2msrc/test/resources/apis/features/DeleteRequest.feature:10 (14s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:37.027+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [3]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:18 (3s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:37.915+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [4]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:10 (4s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:40.257+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [4]  \u001b[2msrc/test/resources/apis/features/PutRequest.feature:10 (3s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:41.666+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [5]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:38 (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:42.085+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [2]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:30 (15s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:43.995+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [5]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:34 (3s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:14:44.730+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [2]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:26 (4s)\u001b[22m\n"}
+{"level":"debug","time":"2025-05-13T13:14:47.481+0530","caller":"jobmanager/sse_setup.go:141","msg":"\n\nJob status"}
+{"level":"debug","time":"2025-05-13T13:14:47.481+0530","caller":"core/lifecycle.go:874","msg":"Context canceled"}
+{"level":"info","time":"2025-05-13T13:14:47.481+0530","caller":"core/lifecycle.go:877","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2025-05-13T13:14:47.481+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=f838ece5-7461-471a-a106-4a2d936480a0\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-05-13T13:14:47.482+0530","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-13T13:14:47.483+0530","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-05-13T13:14:48.276+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n\u001b[102m\u001b[1m\u001b[30m PARTIALLY COMPLETED \u001b[0m\u001b[22m\u001b[0m\n"}
+{"level":"info","time":"2025-05-13T13:14:48.277+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTest Execution Time\u001b[22m:                  \u001b[92m24s\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:14:48.278+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mJob Duration Time\u001b[22m:                    1m14s"}
+{"level":"info","time":"2025-05-13T13:14:48.278+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Tasks\u001b[22m:                          5"}
+{"level":"info","time":"2025-05-13T13:14:48.278+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mCumulative Time Consumed\u001b[22m:             3m16s"}
+{"level":"info","time":"2025-05-13T13:14:48.278+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Stages\u001b[22m:                         16"}
+{"level":"info","time":"2025-05-13T13:14:48.278+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass discovery stage percentage\u001b[22m:      100.00%"}
+{"level":"info","time":"2025-05-13T13:14:48.278+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed discovery stage percentage\u001b[22m:    0.00%"}
+{"level":"info","time":"2025-05-13T13:14:48.278+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass pre stage percentage\u001b[22m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:14:48.278+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed pre stage percentage\u001b[22m:          0.00%"}
+{"level":"info","time":"2025-05-13T13:14:48.278+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass test stage percentage\u001b[22m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:14:48.278+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed test stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-05-13T13:14:48.278+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass post stage percentage\u001b[22m:           0.00%"}
+{"level":"info","time":"2025-05-13T13:14:48.278+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed post stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-05-13T13:14:48.278+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed Tasks\u001b[22m:                         0"}
+{"level":"info","time":"2025-05-13T13:14:48.278+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-05-13T13:15:17.483+0530","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-05-13T13:17:30.783+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-05-13T13:17:31.735+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.272} "}
+{"level":"debug","time":"2025-05-13T13:17:34.880+0530","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-13T13:17:34.881+0530","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-13T13:17:34.882+0530","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:17:34.882+0530","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:17:35.821+0530","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : /Users/dhakshath/Documents/KarateAPI"}
+{"level":"debug","time":"2025-05-13T13:17:35.823+0530","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-13T13:17:35.823+0530","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-13T13:17:35.824+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:17:35.824+0530","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36mmac\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:17:35.824+0530","caller":"models/HypertestYamlConfig.go:743","msg":"Concurrency:    \u001b[36m10\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:17:35.824+0530","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:17:35.824+0530","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-13T13:17:35.824+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:17:35.824+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-05-13T13:17:37.744+0530","caller":"core/lifecycle.go:516","msg":"Job ID: 15b24954-78f5-4811-b030-8e0b06c8f0b2"}
+{"level":"debug","time":"2025-05-13T13:17:37.744+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-13T13:17:37.745+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-13T13:17:38.885+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[.gitignore:{6789880119083260772 539 .gitignore false} .idea:{0 0 .idea true} .idea/.gitignore:{16279786366844463540 122 .idea/.gitignore false} .idea/gradle.xml:{4659657774069657883 558 .idea/gradle.xml false} .idea/misc.xml:{16225606672018911431 354 .idea/misc.xml false} .idea/workspace.xml:{11434788426567933113 10109 .idea/workspace.xml false} build.gradle:{6402680117770863533 524 build.gradle false} cucumber_context.json:{10190887627203814083 8228 cucumber_context.json false} gradle:{0 0 gradle true} gradle/wrapper:{0 0 gradle/wrapper true} gradle/wrapper/gradle-wrapper.jar:{8142569059071412300 60756 gradle/wrapper/gradle-wrapper.jar false} gradle/wrapper/gradle-wrapper.properties:{5454816729783508739 231 gradle/wrapper/gradle-wrapper.properties false} gradlew:{7922637049471180284 8070 gradlew false} gradlew.bat:{16664544825820606439 2763 gradlew.bat false} hyperexecute.yaml:{13551928723367612381 740 hyperexecute.yaml false} hyperexecute__metadata__.json:{8720704765352721524 51 hyperexecute__metadata__.json false} settings.gradle:{14290926963802788158 30 settings.gradle false} snooper.log:{10362262988316453443 14464 snooper.log false} src:{0 0 src true} src/test:{0 0 src/test true} src/test/java:{0 0 src/test/java true} src/test/java/APIRunner.java:{7850812801501036521 1032 src/test/java/APIRunner.java false} src/test/java/ParallelRunner.java:{15835990256694852921 643 src/test/java/ParallelRunner.java false} src/test/java/TagRunner.java:{16225404343123923587 824 src/test/java/TagRunner.java false} src/test/java/TestRunner.java:{9767021977487237997 793 src/test/java/TestRunner.java false} src/test/resources:{0 0 src/test/resources true} src/test/resources/Karate-config.js:{16327507150798637260 338 src/test/resources/Karate-config.js false} src/test/resources/apis:{0 0 src/test/resources/apis true} src/test/resources/apis/features:{0 0 src/test/resources/apis/features true} src/test/resources/apis/features/DeleteRequest.feature:{7215814100712510453 302 src/test/resources/apis/features/DeleteRequest.feature false} src/test/resources/apis/features/GetRequest.feature:{15584434973548180755 977 src/test/resources/apis/features/GetRequest.feature false} src/test/resources/apis/features/PostRequest.feature:{14869628535307320508 964 src/test/resources/apis/features/PostRequest.feature false} src/test/resources/apis/features/PutRequest.feature:{12666796336522385911 357 src/test/resources/apis/features/PutRequest.feature false} src/test/resources/logback-test.xml:{6758398796316335698 711 src/test/resources/logback-test.xml false} target:{0 0 target true} target/karate.log:{16462827523834632322 448044 target/karate.log false}]"}
+{"level":"debug","time":"2025-05-13T13:17:38.886+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/dhakshath/Documents/KarateAPI"}
+{"level":"debug","time":"2025-05-13T13:17:38.904+0530","caller":"core/lifecycle.go:659","msg":"Zip file size: 2.33 kB"}
+{"level":"debug","time":"2025-05-13T13:17:38.904+0530","caller":"core/lifecycle.go:669","msg":"Archive location: /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-15b24954-78f5-4811-b030-8e0b06c8f0b2.zip\n"}
+{"level":"debug","time":"2025-05-13T13:17:38.905+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.33 kB, source path /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-15b24954-78f5-4811-b030-8e0b06c8f0b2.zip"}
+{"level":"debug","time":"2025-05-13T13:17:39.111+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-05-13T13:17:49.073+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.168044416s"}
+{"level":"debug","time":"2025-05-13T13:17:49.073+0530","caller":"receptionmanager/setup.go:277","msg":"only one runtime entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-05-13T13:17:49.074+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-05-13T13:17:49.074+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/dhakshath/Documents/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:17:49.074+0530","caller":"storage/azure.go:59","msg":"Payload size: 3.48 kB, source path /Users/dhakshath/Documents/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-05-13T13:17:59.147+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.072927791s"}
+{"level":"debug","time":"2025-05-13T13:17:59.147+0530","caller":"core/lifecycle.go:696","msg":"Successfully deleted code archive: /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-15b24954-78f5-4811-b030-8e0b06c8f0b2.zip\n"}
+{"level":"debug","time":"2025-05-13T13:17:59.148+0530","caller":"storage/azure.go:59","msg":"Payload size: 582 B, source path mask-15b24954-78f5-4811-b030-8e0b06c8f0b2.yaml"}
+{"level":"info","time":"2025-05-13T13:18:09.229+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.080575458s"}
+{"level":"debug","time":"2025-05-13T13:18:11.432+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122490199253995JBO"}
+{"level":"debug","time":"2025-05-13T13:18:11.433+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122490199253995JBO"}
+{"level":"info","time":"2025-05-13T13:18:13.692+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4m15b24954-78f5-4811-b030-8e0b06c8f0b2\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:18:13.692+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=15b24954-78f5-4811-b030-8e0b06c8f0b2\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-05-13T13:18:19.280+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2msetup-runtime (6s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:22.562+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (3s)\u001b[22m\n"}
+{"level":"debug","time":"2025-05-13T13:18:23.520+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122501753436616UYQ"}
+{"level":"debug","time":"2025-05-13T13:18:23.520+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122501753436616UYQ"}
+{"level":"debug","time":"2025-05-13T13:18:23.520+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122501795115276MHR"}
+{"level":"debug","time":"2025-05-13T13:18:23.520+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122501795115276MHR"}
+{"level":"debug","time":"2025-05-13T13:18:23.520+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122501833420459CGL"}
+{"level":"debug","time":"2025-05-13T13:18:23.520+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122501833420459CGL"}
+{"level":"debug","time":"2025-05-13T13:18:23.520+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122501876736196PZX"}
+{"level":"debug","time":"2025-05-13T13:18:23.520+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122501876736196PZX"}
+{"level":"debug","time":"2025-05-13T13:18:23.521+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122501937274345LSZ"}
+{"level":"debug","time":"2025-05-13T13:18:23.521+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122501937274345LSZ"}
+{"level":"debug","time":"2025-05-13T13:18:23.521+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122501984428548YUM"}
+{"level":"debug","time":"2025-05-13T13:18:23.521+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122501984428548YUM"}
+{"level":"debug","time":"2025-05-13T13:18:23.521+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122502031813727PKQ"}
+{"level":"debug","time":"2025-05-13T13:18:23.521+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122502031813727PKQ"}
+{"level":"debug","time":"2025-05-13T13:18:23.521+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122502077830518BCX"}
+{"level":"debug","time":"2025-05-13T13:18:23.521+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122502077830518BCX"}
+{"level":"debug","time":"2025-05-13T13:18:23.521+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122502125991217SRT"}
+{"level":"debug","time":"2025-05-13T13:18:23.521+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122502125991217SRT"}
+{"level":"debug","time":"2025-05-13T13:18:23.521+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122502173344269ITH"}
+{"level":"debug","time":"2025-05-13T13:18:23.521+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122502173344269ITH"}
+{"level":"info","time":"2025-05-13T13:18:31.368+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2msetup-runtime (6s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:31.762+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:31.897+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [11]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:32.599+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:34.470+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:35.087+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:35.103+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:35.258+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2msetup-runtime (10s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:35.876+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2msetup-runtime (11s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:40.639+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2msetup-runtime (14s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:51.163+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [6]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:10 (17s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:52.141+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [9]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:23 (17s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:52.544+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [8]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:30 (16s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:52.734+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [11]  \u001b[2msrc/test/resources/apis/features/DeleteRequest.feature:10 (18s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:55.674+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [10]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:16 (18s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:56.422+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [4]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:26 (17s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:18:59.851+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [2]  \u001b[2msrc/test/resources/apis/features/PutRequest.feature:10 (21s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:19:00.952+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [5]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:18 (22s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:19:03.133+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [7]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:38 (24s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:19:04.926+0530","caller":"terminal/terminal.go:187","msg":"\u001b[30m✔\u001b[0m [3]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:34 (20s)\u001b[22m\n"}
+{"level":"debug","time":"2025-05-13T13:19:07.355+0530","caller":"jobmanager/sse_setup.go:141","msg":"\n\nJob status"}
+{"level":"debug","time":"2025-05-13T13:19:07.355+0530","caller":"core/lifecycle.go:874","msg":"Context canceled"}
+{"level":"info","time":"2025-05-13T13:19:07.355+0530","caller":"core/lifecycle.go:877","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2025-05-13T13:19:07.356+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=15b24954-78f5-4811-b030-8e0b06c8f0b2\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-05-13T13:19:07.357+0530","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-13T13:19:07.357+0530","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-05-13T13:19:08.112+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n\u001b[102m\u001b[1m\u001b[30m PARTIALLY COMPLETED \u001b[0m\u001b[22m\u001b[0m\n"}
+{"level":"info","time":"2025-05-13T13:19:08.112+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTest Execution Time\u001b[22m:                  \u001b[92m30s\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:19:08.113+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mJob Duration Time\u001b[22m:                    53s"}
+{"level":"info","time":"2025-05-13T13:19:08.113+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Tasks\u001b[22m:                          11"}
+{"level":"info","time":"2025-05-13T13:19:08.113+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mCumulative Time Consumed\u001b[22m:             5m25s"}
+{"level":"info","time":"2025-05-13T13:19:08.113+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Stages\u001b[22m:                         11"}
+{"level":"info","time":"2025-05-13T13:19:08.113+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass discovery stage percentage\u001b[22m:      100.00%"}
+{"level":"info","time":"2025-05-13T13:19:08.113+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed discovery stage percentage\u001b[22m:    0.00%"}
+{"level":"info","time":"2025-05-13T13:19:08.113+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass pre stage percentage\u001b[22m:            0.00%"}
+{"level":"info","time":"2025-05-13T13:19:08.113+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed pre stage percentage\u001b[22m:          0.00%"}
+{"level":"info","time":"2025-05-13T13:19:08.113+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass test stage percentage\u001b[22m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:19:08.113+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed test stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-05-13T13:19:08.113+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass post stage percentage\u001b[22m:           0.00%"}
+{"level":"info","time":"2025-05-13T13:19:08.113+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed post stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-05-13T13:19:08.113+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed Tasks\u001b[22m:                         0"}
+{"level":"info","time":"2025-05-13T13:19:08.113+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-05-13T13:19:37.358+0530","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-05-13T13:23:02.699+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-05-13T13:23:03.572+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.272} "}
+{"level":"debug","time":"2025-05-13T13:23:06.659+0530","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-13T13:23:06.660+0530","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-13T13:23:06.660+0530","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:23:06.661+0530","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:23:07.634+0530","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : /Users/dhakshath/Documents/KarateAPI"}
+{"level":"debug","time":"2025-05-13T13:23:07.636+0530","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-13T13:23:07.636+0530","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-13T13:23:07.637+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:23:07.637+0530","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36mmac\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:23:07.637+0530","caller":"models/HypertestYamlConfig.go:743","msg":"Concurrency:    \u001b[36m10\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:23:07.637+0530","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:23:07.637+0530","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-13T13:23:07.637+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:23:07.638+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-05-13T13:23:09.627+0530","caller":"core/lifecycle.go:516","msg":"Job ID: fc9eec4f-736c-4186-b51e-e2d90290d53f"}
+{"level":"debug","time":"2025-05-13T13:23:09.627+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-13T13:23:09.627+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-13T13:23:10.740+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-05-13T13:23:10.754+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[.gitignore:{6789880119083260772 539 .gitignore false} .hyperexecute.yaml:{15110485918403458001 3504 .hyperexecute.yaml false} .idea:{0 0 .idea true} .idea/.gitignore:{16279786366844463540 122 .idea/.gitignore false} .idea/gradle.xml:{4659657774069657883 558 .idea/gradle.xml false} .idea/misc.xml:{16225606672018911431 354 .idea/misc.xml false} .idea/workspace.xml:{11434788426567933113 10109 .idea/workspace.xml false} build.gradle:{6402680117770863533 524 build.gradle false} cucumber_context.json:{10190887627203814083 8228 cucumber_context.json false} gradle:{0 0 gradle true} gradle/wrapper:{0 0 gradle/wrapper true} gradle/wrapper/gradle-wrapper.jar:{8142569059071412300 60756 gradle/wrapper/gradle-wrapper.jar false} gradle/wrapper/gradle-wrapper.properties:{5454816729783508739 231 gradle/wrapper/gradle-wrapper.properties false} gradlew:{7922637049471180284 8070 gradlew false} gradlew.bat:{16664544825820606439 2763 gradlew.bat false} hyperexecute.yaml:{14694908183603034909 557 hyperexecute.yaml false} settings.gradle:{14290926963802788158 30 settings.gradle false} snooper.log:{10362262988316453443 14464 snooper.log false} src:{0 0 src true} src/test:{0 0 src/test true} src/test/java:{0 0 src/test/java true} src/test/java/APIRunner.java:{7850812801501036521 1032 src/test/java/APIRunner.java false} src/test/java/ParallelRunner.java:{15835990256694852921 643 src/test/java/ParallelRunner.java false} src/test/java/TagRunner.java:{16225404343123923587 824 src/test/java/TagRunner.java false} src/test/java/TestRunner.java:{9767021977487237997 793 src/test/java/TestRunner.java false} src/test/resources:{0 0 src/test/resources true} src/test/resources/Karate-config.js:{16327507150798637260 338 src/test/resources/Karate-config.js false} src/test/resources/apis:{0 0 src/test/resources/apis true} src/test/resources/apis/features:{0 0 src/test/resources/apis/features true} src/test/resources/apis/features/DeleteRequest.feature:{7215814100712510453 302 src/test/resources/apis/features/DeleteRequest.feature false} src/test/resources/apis/features/GetRequest.feature:{15584434973548180755 977 src/test/resources/apis/features/GetRequest.feature false} src/test/resources/apis/features/PostRequest.feature:{14869628535307320508 964 src/test/resources/apis/features/PostRequest.feature false} src/test/resources/apis/features/PutRequest.feature:{12666796336522385911 357 src/test/resources/apis/features/PutRequest.feature false} src/test/resources/logback-test.xml:{6758398796316335698 711 src/test/resources/logback-test.xml false} target:{0 0 target true} target/karate.log:{16462827523834632322 448044 target/karate.log false}]"}
+{"level":"debug","time":"2025-05-13T13:23:10.754+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/dhakshath/Documents/KarateAPI"}
+{"level":"debug","time":"2025-05-13T13:23:10.776+0530","caller":"core/lifecycle.go:659","msg":"Zip file size: 2.38 kB"}
+{"level":"debug","time":"2025-05-13T13:23:10.776+0530","caller":"core/lifecycle.go:669","msg":"Archive location: /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-fc9eec4f-736c-4186-b51e-e2d90290d53f.zip\n"}
+{"level":"debug","time":"2025-05-13T13:23:10.777+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.38 kB, source path /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-fc9eec4f-736c-4186-b51e-e2d90290d53f.zip"}
+{"level":"info","time":"2025-05-13T13:23:20.959+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.182928709s"}
+{"level":"debug","time":"2025-05-13T13:23:20.960+0530","caller":"receptionmanager/setup.go:277","msg":"only one runtime entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-05-13T13:23:20.961+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-05-13T13:23:20.961+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/dhakshath/Documents/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:23:20.961+0530","caller":"storage/azure.go:59","msg":"Payload size: 3.52 kB, source path /Users/dhakshath/Documents/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-05-13T13:23:31.038+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.07749625s"}
+{"level":"debug","time":"2025-05-13T13:23:31.039+0530","caller":"core/lifecycle.go:696","msg":"Successfully deleted code archive: /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-fc9eec4f-736c-4186-b51e-e2d90290d53f.zip\n"}
+{"level":"debug","time":"2025-05-13T13:23:31.039+0530","caller":"storage/azure.go:59","msg":"Payload size: 614 B, source path mask-fc9eec4f-736c-4186-b51e-e2d90290d53f.yaml"}
+{"level":"info","time":"2025-05-13T13:23:41.116+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.077108083s"}
+{"level":"debug","time":"2025-05-13T13:23:43.314+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122822060847843BTH"}
+{"level":"debug","time":"2025-05-13T13:23:43.315+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122822060847843BTH"}
+{"level":"info","time":"2025-05-13T13:23:45.605+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4mfc9eec4f-736c-4186-b51e-e2d90290d53f\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:23:45.605+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=fc9eec4f-736c-4186-b51e-e2d90290d53f\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-05-13T13:23:51.197+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:23:54.601+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (4s)\u001b[22m\n"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122833773967399KOY"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122833773967399KOY"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122833842302625FLU"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122833842302625FLU"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122833890442210IIK"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122833890442210IIK"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122833943026357BQT"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122833943026357BQT"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122833980620206RGI"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122833980620206RGI"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122834029765434KHK"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122834029765434KHK"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122834079855436MDP"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122834079855436MDP"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122834128568781XCN"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122834128568781XCN"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122834178647693GZF"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122834178647693GZF"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747122834215668075WIA"}
+{"level":"debug","time":"2025-05-13T13:23:55.596+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747122834215668075WIA"}
+{"level":"info","time":"2025-05-13T13:24:04.034+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:04.427+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2msetup-runtime (6s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:04.640+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:06.135+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:06.693+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:07.450+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:07.827+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:07.933+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:08.206+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2msetup-runtime (9s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:08.769+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [11]  \u001b[2msetup-runtime (9s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:24.789+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:34 (18s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:25.481+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:16 (18s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:26.716+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2msrc/test/resources/apis/features/PutRequest.feature:10 (20s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:29.519+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:38 (19s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:30.985+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:18 (20s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:32.797+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:10 (21s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:33.450+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:30 (20s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:33.662+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:23 (22s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:34.815+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [11]  \u001b[2msrc/test/resources/apis/features/DeleteRequest.feature:10 (22s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:24:36.846+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:26 (25s)\u001b[22m\n"}
+{"level":"debug","time":"2025-05-13T13:24:39.211+0530","caller":"jobmanager/sse_setup.go:141","msg":"\n\nJob status"}
+{"level":"debug","time":"2025-05-13T13:24:39.212+0530","caller":"core/lifecycle.go:874","msg":"Context canceled"}
+{"level":"info","time":"2025-05-13T13:24:39.212+0530","caller":"core/lifecycle.go:877","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2025-05-13T13:24:39.212+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=fc9eec4f-736c-4186-b51e-e2d90290d53f\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-05-13T13:24:39.213+0530","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-13T13:24:39.213+0530","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-05-13T13:24:39.994+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n\u001b[102m\u001b[1m\u001b[30m COMPLETED \u001b[0m\u001b[22m\u001b[0m\n"}
+{"level":"info","time":"2025-05-13T13:24:39.995+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTest Execution Time\u001b[22m:                  \u001b[92m29s\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:24:39.996+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mJob Duration Time\u001b[22m:                    53s"}
+{"level":"info","time":"2025-05-13T13:24:39.996+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Tasks\u001b[22m:                          11"}
+{"level":"info","time":"2025-05-13T13:24:39.996+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mCumulative Time Consumed\u001b[22m:             5m39s"}
+{"level":"info","time":"2025-05-13T13:24:39.996+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Stages\u001b[22m:                         11"}
+{"level":"info","time":"2025-05-13T13:24:39.996+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass discovery stage percentage\u001b[22m:      100.00%"}
+{"level":"info","time":"2025-05-13T13:24:39.996+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed discovery stage percentage\u001b[22m:    0.00%"}
+{"level":"info","time":"2025-05-13T13:24:39.996+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass pre stage percentage\u001b[22m:            0.00%"}
+{"level":"info","time":"2025-05-13T13:24:39.996+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed pre stage percentage\u001b[22m:          0.00%"}
+{"level":"info","time":"2025-05-13T13:24:39.996+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass test stage percentage\u001b[22m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:24:39.996+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed test stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-05-13T13:24:39.996+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass post stage percentage\u001b[22m:           0.00%"}
+{"level":"info","time":"2025-05-13T13:24:39.996+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed post stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-05-13T13:24:39.996+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed Tasks\u001b[22m:                         0"}
+{"level":"info","time":"2025-05-13T13:24:39.996+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-05-13T13:25:09.213+0530","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-05-13T13:27:48.570+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-05-13T13:27:49.374+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.272} "}
+{"level":"debug","time":"2025-05-13T13:27:52.548+0530","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-13T13:27:52.549+0530","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-13T13:27:52.549+0530","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:27:52.550+0530","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:27:53.539+0530","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : /Users/dhakshath/Documents/KarateAPI"}
+{"level":"debug","time":"2025-05-13T13:27:53.541+0530","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-13T13:27:53.541+0530","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-13T13:27:53.542+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:27:53.542+0530","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36mmac\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:27:53.542+0530","caller":"models/HypertestYamlConfig.go:743","msg":"Concurrency:    \u001b[36m10\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:27:53.542+0530","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:27:53.542+0530","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-13T13:27:53.542+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:27:53.543+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-05-13T13:27:55.318+0530","caller":"core/lifecycle.go:516","msg":"Job ID: 96e04057-61cd-464e-a955-57e1b11a0449"}
+{"level":"debug","time":"2025-05-13T13:27:55.318+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-13T13:27:55.319+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-13T13:27:56.434+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[.gitignore:{6789880119083260772 539 .gitignore false} .idea:{0 0 .idea true} .idea/.gitignore:{16279786366844463540 122 .idea/.gitignore false} .idea/gradle.xml:{4659657774069657883 558 .idea/gradle.xml false} .idea/misc.xml:{16225606672018911431 354 .idea/misc.xml false} .idea/workspace.xml:{11434788426567933113 10109 .idea/workspace.xml false} build.gradle:{6402680117770863533 524 build.gradle false} cucumber_context.json:{10190887627203814083 8228 cucumber_context.json false} gradle:{0 0 gradle true} gradle/wrapper:{0 0 gradle/wrapper true} gradle/wrapper/gradle-wrapper.jar:{8142569059071412300 60756 gradle/wrapper/gradle-wrapper.jar false} gradle/wrapper/gradle-wrapper.properties:{5454816729783508739 231 gradle/wrapper/gradle-wrapper.properties false} gradlew:{7922637049471180284 8070 gradlew false} gradlew.bat:{16664544825820606439 2763 gradlew.bat false} hyperexecute.yaml:{7331428629192970596 651 hyperexecute.yaml false} hyperexecute__metadata__.json:{8720704765352721524 51 hyperexecute__metadata__.json false} settings.gradle:{14290926963802788158 30 settings.gradle false} snooper.log:{10362262988316453443 14464 snooper.log false} src:{0 0 src true} src/test:{0 0 src/test true} src/test/java:{0 0 src/test/java true} src/test/java/APIRunner.java:{7850812801501036521 1032 src/test/java/APIRunner.java false} src/test/java/ParallelRunner.java:{15835990256694852921 643 src/test/java/ParallelRunner.java false} src/test/java/TagRunner.java:{16225404343123923587 824 src/test/java/TagRunner.java false} src/test/java/TestRunner.java:{9767021977487237997 793 src/test/java/TestRunner.java false} src/test/resources:{0 0 src/test/resources true} src/test/resources/Karate-config.js:{16327507150798637260 338 src/test/resources/Karate-config.js false} src/test/resources/apis:{0 0 src/test/resources/apis true} src/test/resources/apis/features:{0 0 src/test/resources/apis/features true} src/test/resources/apis/features/DeleteRequest.feature:{7215814100712510453 302 src/test/resources/apis/features/DeleteRequest.feature false} src/test/resources/apis/features/GetRequest.feature:{15584434973548180755 977 src/test/resources/apis/features/GetRequest.feature false} src/test/resources/apis/features/PostRequest.feature:{14869628535307320508 964 src/test/resources/apis/features/PostRequest.feature false} src/test/resources/apis/features/PutRequest.feature:{12666796336522385911 357 src/test/resources/apis/features/PutRequest.feature false} src/test/resources/logback-test.xml:{6758398796316335698 711 src/test/resources/logback-test.xml false} target:{0 0 target true} target/karate.log:{16462827523834632322 448044 target/karate.log false}]"}
+{"level":"debug","time":"2025-05-13T13:27:56.434+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/dhakshath/Documents/KarateAPI"}
+{"level":"debug","time":"2025-05-13T13:27:56.453+0530","caller":"core/lifecycle.go:659","msg":"Zip file size: 2.45 kB"}
+{"level":"debug","time":"2025-05-13T13:27:56.453+0530","caller":"core/lifecycle.go:669","msg":"Archive location: /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-96e04057-61cd-464e-a955-57e1b11a0449.zip\n"}
+{"level":"debug","time":"2025-05-13T13:27:56.453+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.45 kB, source path /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-96e04057-61cd-464e-a955-57e1b11a0449.zip"}
+{"level":"debug","time":"2025-05-13T13:27:56.501+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-05-13T13:28:06.577+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.124205959s"}
+{"level":"debug","time":"2025-05-13T13:28:06.578+0530","caller":"receptionmanager/setup.go:277","msg":"only one runtime entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-05-13T13:28:06.578+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-05-13T13:28:06.579+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/dhakshath/Documents/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:28:06.579+0530","caller":"storage/azure.go:59","msg":"Payload size: 3.57 kB, source path /Users/dhakshath/Documents/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:28:06.875+0530","caller":"cmd/bin.go:354","msg":"main: received C-c - attempting graceful shutdown ...."}
+{"level":"debug","time":"2025-05-13T13:28:06.876+0530","caller":"cmd/bin.go:355","msg":"Sending abort job signal to sentinel"}
+{"level":"debug","time":"2025-05-13T13:28:06.876+0530","caller":"cmd/bin.go:361","msg":"Sending request to abort job"}
+{"level":"debug","time":"2025-05-13T13:28:06.878+0530","caller":"utils/azcopy.go:131","msg":"Updating dependency version..."}
+{"level":"debug","time":"2025-05-13T13:28:06.878+0530","caller":"utils/azcopy.go:143","msg":"Downloading dependency binary ..................."}
+{"level":"debug","time":"2025-05-13T13:28:08.052+0530","caller":"utils/azcopy.go:100","msg":"Downloading dependency to upload files"}
+{"level":"debug","time":"2025-05-13T13:28:08.853+0530","caller":"cmd/bin.go:370","msg":"main: telling goroutines to stop"}
+{"level":"error","time":"2025-05-13T13:28:08.853+0530","caller":"utils/azcopy.go:157","msg":"2025-05-13T13:27:47+05:30    error    \u001b[91mERR::AZCOPY::DOWN\u001b[0m     Unable to download azcopy. Please try downloading it from the link https://downloads.hyperexecute.cloud/hyperexecute/darwin/arm64/azcopy and place inside .hyperexecute directory. Make sure to check any firewall, VPN settings which might block this url.    \u001b[91mERR::OS::WRITE\u001b[0m     Unable to write file. context canceled"}
+{"level":"info","time":"2025-05-13T13:28:08.853+0530","caller":"storage/azure.go:153","msg":"Uploading file using azure sdk"}
+{"level":"debug","time":"2025-05-13T13:28:08.857+0530","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-13T13:28:08.857+0530","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-05-13T13:28:33.728+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-05-13T13:28:34.637+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.272} "}
+{"level":"debug","time":"2025-05-13T13:28:36.379+0530","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-13T13:28:36.379+0530","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-13T13:28:36.380+0530","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:28:36.380+0530","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:28:37.274+0530","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : /Users/dhakshath/Documents/KarateAPI"}
+{"level":"debug","time":"2025-05-13T13:28:37.276+0530","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-13T13:28:37.276+0530","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-13T13:28:37.276+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:28:37.276+0530","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36mmac\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:28:37.276+0530","caller":"models/HypertestYamlConfig.go:743","msg":"Concurrency:    \u001b[36m10\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:28:37.276+0530","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:28:37.276+0530","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-13T13:28:37.276+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:28:37.277+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-05-13T13:28:39.713+0530","caller":"core/lifecycle.go:516","msg":"Job ID: 1c171bda-071e-40a9-816a-8bcee50c1592"}
+{"level":"debug","time":"2025-05-13T13:28:39.713+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-13T13:28:39.713+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-13T13:28:40.793+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[.gitignore:{6789880119083260772 539 .gitignore false} .idea:{0 0 .idea true} .idea/.gitignore:{16279786366844463540 122 .idea/.gitignore false} .idea/gradle.xml:{4659657774069657883 558 .idea/gradle.xml false} .idea/misc.xml:{16225606672018911431 354 .idea/misc.xml false} .idea/workspace.xml:{11434788426567933113 10109 .idea/workspace.xml false} build.gradle:{6402680117770863533 524 build.gradle false} cucumber_context.json:{10190887627203814083 8228 cucumber_context.json false} gradle:{0 0 gradle true} gradle/wrapper:{0 0 gradle/wrapper true} gradle/wrapper/gradle-wrapper.jar:{8142569059071412300 60756 gradle/wrapper/gradle-wrapper.jar false} gradle/wrapper/gradle-wrapper.properties:{5454816729783508739 231 gradle/wrapper/gradle-wrapper.properties false} gradlew:{7922637049471180284 8070 gradlew false} gradlew.bat:{16664544825820606439 2763 gradlew.bat false} hyperexecute.yaml:{7331428629192970596 651 hyperexecute.yaml false} hyperexecute__metadata__.json:{8720704765352721524 51 hyperexecute__metadata__.json false} settings.gradle:{14290926963802788158 30 settings.gradle false} snooper.log:{10362262988316453443 14464 snooper.log false} src:{0 0 src true} src/test:{0 0 src/test true} src/test/java:{0 0 src/test/java true} src/test/java/APIRunner.java:{7850812801501036521 1032 src/test/java/APIRunner.java false} src/test/java/ParallelRunner.java:{15835990256694852921 643 src/test/java/ParallelRunner.java false} src/test/java/TagRunner.java:{16225404343123923587 824 src/test/java/TagRunner.java false} src/test/java/TestRunner.java:{9767021977487237997 793 src/test/java/TestRunner.java false} src/test/resources:{0 0 src/test/resources true} src/test/resources/Karate-config.js:{16327507150798637260 338 src/test/resources/Karate-config.js false} src/test/resources/apis:{0 0 src/test/resources/apis true} src/test/resources/apis/features:{0 0 src/test/resources/apis/features true} src/test/resources/apis/features/DeleteRequest.feature:{7215814100712510453 302 src/test/resources/apis/features/DeleteRequest.feature false} src/test/resources/apis/features/GetRequest.feature:{15584434973548180755 977 src/test/resources/apis/features/GetRequest.feature false} src/test/resources/apis/features/PostRequest.feature:{14869628535307320508 964 src/test/resources/apis/features/PostRequest.feature false} src/test/resources/apis/features/PutRequest.feature:{12666796336522385911 357 src/test/resources/apis/features/PutRequest.feature false} src/test/resources/logback-test.xml:{6758398796316335698 711 src/test/resources/logback-test.xml false} target:{0 0 target true} target/karate.log:{16462827523834632322 448044 target/karate.log false}]"}
+{"level":"debug","time":"2025-05-13T13:28:40.793+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/dhakshath/Documents/KarateAPI"}
+{"level":"debug","time":"2025-05-13T13:28:40.811+0530","caller":"core/lifecycle.go:659","msg":"Zip file size: 2.40 kB"}
+{"level":"debug","time":"2025-05-13T13:28:40.811+0530","caller":"core/lifecycle.go:669","msg":"Archive location: /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-1c171bda-071e-40a9-816a-8bcee50c1592.zip\n"}
+{"level":"debug","time":"2025-05-13T13:28:40.812+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.40 kB, source path /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-1c171bda-071e-40a9-816a-8bcee50c1592.zip"}
+{"level":"debug","time":"2025-05-13T13:28:40.815+0530","caller":"utils/azcopy.go:131","msg":"Updating dependency version..."}
+{"level":"debug","time":"2025-05-13T13:28:40.815+0530","caller":"utils/azcopy.go:143","msg":"Downloading dependency binary ..................."}
+{"level":"debug","time":"2025-05-13T13:28:40.931+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-05-13T13:28:41.720+0530","caller":"utils/azcopy.go:100","msg":"Downloading dependency to upload files"}
+{"level":"info","time":"2025-05-13T13:28:55.437+0530","caller":"utils/azcopy.go:118","msg":"\u001b[91m\u001b[32m✔\u001b[0m Dependency binary downloaded successfully\u001b[0m"}
+{"level":"debug","time":"2025-05-13T13:28:55.438+0530","caller":"utils/azcopy.go:190","msg":"returning from fallback"}
+{"level":"info","time":"2025-05-13T13:28:57.485+0530","caller":"storage/azure.go:114","msg":"File upload completed in 16.674126375s"}
+{"level":"debug","time":"2025-05-13T13:28:57.486+0530","caller":"receptionmanager/setup.go:277","msg":"only one runtime entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-05-13T13:28:57.486+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-05-13T13:28:57.487+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/dhakshath/Documents/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:28:57.487+0530","caller":"storage/azure.go:59","msg":"Payload size: 3.53 kB, source path /Users/dhakshath/Documents/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-05-13T13:29:07.541+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.05390525s"}
+{"level":"debug","time":"2025-05-13T13:29:07.541+0530","caller":"core/lifecycle.go:696","msg":"Successfully deleted code archive: /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-1c171bda-071e-40a9-816a-8bcee50c1592.zip\n"}
+{"level":"debug","time":"2025-05-13T13:29:07.542+0530","caller":"storage/azure.go:59","msg":"Payload size: 628 B, source path mask-1c171bda-071e-40a9-816a-8bcee50c1592.yaml"}
+{"level":"info","time":"2025-05-13T13:29:17.598+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.055755292s"}
+{"level":"debug","time":"2025-05-13T13:29:19.805+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123158542964754OVM"}
+{"level":"debug","time":"2025-05-13T13:29:19.807+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123158542964754OVM"}
+{"level":"info","time":"2025-05-13T13:29:22.059+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4m1c171bda-071e-40a9-816a-8bcee50c1592\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:29:22.059+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=1c171bda-071e-40a9-816a-8bcee50c1592\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-05-13T13:29:27.907+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:29:31.069+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (3s)\u001b[22m\n"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123170265354111TQW"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123170265354111TQW"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123170332974728NBY"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123170332974728NBY"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123170381740620ZBK"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123170381740620ZBK"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123170426023877YYU"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123170426023877YYU"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123170478300495UDF"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123170478300495UDF"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123170521413924YLF"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123170521413924YLF"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123170561133653YAQ"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123170561133653YAQ"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123170631933125SID"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123170631933125SID"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123170685687468VGI"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123170685687468VGI"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123170741891249FLN"}
+{"level":"debug","time":"2025-05-13T13:29:31.962+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123170741891249FLN"}
+{"level":"info","time":"2025-05-13T13:29:40.286+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2msetup-runtime (6s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:29:40.529+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:29:40.837+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:29:41.003+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:29:42.667+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2msetup-runtime (9s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:29:43.652+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:29:43.663+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [11]  \u001b[2msetup-runtime (9s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:29:45.928+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2msetup-runtime (10s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:29:47.431+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2msetup-runtime (11s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:29:47.457+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2msetup-runtime (11s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:29:59.859+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:30 (17s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:30:00.908+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:26 (17s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:30:02.095+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:10 (18s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:30:03.224+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:38 (20s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:30:04.572+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2msrc/test/resources/apis/features/PutRequest.feature:10 (18s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:30:06.876+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [11]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:34 (19s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:30:08.052+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:16 (20s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:30:10.392+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:18 (20s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:30:11.217+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2msrc/test/resources/apis/features/DeleteRequest.feature:10 (19s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:30:11.587+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:23 (20s)\u001b[22m\n"}
+{"level":"debug","time":"2025-05-13T13:30:13.933+0530","caller":"jobmanager/sse_setup.go:141","msg":"\n\nJob status"}
+{"level":"debug","time":"2025-05-13T13:30:13.934+0530","caller":"core/lifecycle.go:874","msg":"Context canceled"}
+{"level":"info","time":"2025-05-13T13:30:13.934+0530","caller":"core/lifecycle.go:877","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2025-05-13T13:30:13.934+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=1c171bda-071e-40a9-816a-8bcee50c1592\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-05-13T13:30:13.935+0530","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-13T13:30:13.935+0530","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-05-13T13:30:14.703+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n\u001b[102m\u001b[1m\u001b[30m COMPLETED \u001b[0m\u001b[22m\u001b[0m\n"}
+{"level":"info","time":"2025-05-13T13:30:14.704+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTest Execution Time\u001b[22m:                  \u001b[92m28s\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:30:14.705+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mJob Duration Time\u001b[22m:                    52s"}
+{"level":"info","time":"2025-05-13T13:30:14.705+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Tasks\u001b[22m:                          11"}
+{"level":"info","time":"2025-05-13T13:30:14.705+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mCumulative Time Consumed\u001b[22m:             5m30s"}
+{"level":"info","time":"2025-05-13T13:30:14.705+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Stages\u001b[22m:                         11"}
+{"level":"info","time":"2025-05-13T13:30:14.705+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass discovery stage percentage\u001b[22m:      100.00%"}
+{"level":"info","time":"2025-05-13T13:30:14.705+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed discovery stage percentage\u001b[22m:    0.00%"}
+{"level":"info","time":"2025-05-13T13:30:14.705+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass pre stage percentage\u001b[22m:            0.00%"}
+{"level":"info","time":"2025-05-13T13:30:14.705+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed pre stage percentage\u001b[22m:          0.00%"}
+{"level":"info","time":"2025-05-13T13:30:14.705+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass test stage percentage\u001b[22m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:30:14.705+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed test stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-05-13T13:30:14.705+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass post stage percentage\u001b[22m:           0.00%"}
+{"level":"info","time":"2025-05-13T13:30:14.705+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed post stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-05-13T13:30:14.705+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed Tasks\u001b[22m:                         0"}
+{"level":"info","time":"2025-05-13T13:30:14.705+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-05-13T13:30:43.936+0530","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-05-13T13:33:12.680+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-05-13T13:33:13.542+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.272} "}
+{"level":"debug","time":"2025-05-13T13:33:16.747+0530","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-13T13:33:16.748+0530","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-13T13:33:16.749+0530","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:33:16.749+0530","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:33:17.842+0530","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : /Users/dhakshath/Documents/KarateAPI"}
+{"level":"debug","time":"2025-05-13T13:33:17.844+0530","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-13T13:33:17.844+0530","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-13T13:33:17.846+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:33:17.846+0530","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36mmac\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:33:17.846+0530","caller":"models/HypertestYamlConfig.go:743","msg":"Concurrency:    \u001b[36m10\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:33:17.846+0530","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:33:17.846+0530","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-13T13:33:17.846+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:33:17.846+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-05-13T13:33:19.836+0530","caller":"core/lifecycle.go:516","msg":"Job ID: 2190322f-2684-411f-828f-673684ef21f9"}
+{"level":"debug","time":"2025-05-13T13:33:19.836+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-13T13:33:19.838+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-13T13:33:20.892+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[.gitignore:{6789880119083260772 539 .gitignore false} .hyperexecute.yaml:{2971639373945641211 3550 .hyperexecute.yaml false} .idea:{0 0 .idea true} .idea/.gitignore:{16279786366844463540 122 .idea/.gitignore false} .idea/gradle.xml:{4659657774069657883 558 .idea/gradle.xml false} .idea/misc.xml:{16225606672018911431 354 .idea/misc.xml false} .idea/workspace.xml:{11434788426567933113 10109 .idea/workspace.xml false} build.gradle:{6402680117770863533 524 build.gradle false} cucumber_context.json:{10190887627203814083 8228 cucumber_context.json false} gradle:{0 0 gradle true} gradle/wrapper:{0 0 gradle/wrapper true} gradle/wrapper/gradle-wrapper.jar:{8142569059071412300 60756 gradle/wrapper/gradle-wrapper.jar false} gradle/wrapper/gradle-wrapper.properties:{5454816729783508739 231 gradle/wrapper/gradle-wrapper.properties false} gradlew:{7922637049471180284 8070 gradlew false} gradlew.bat:{16664544825820606439 2763 gradlew.bat false} hyperexecute.yaml:{18382104453402193024 665 hyperexecute.yaml false} settings.gradle:{14290926963802788158 30 settings.gradle false} snooper.log:{10362262988316453443 14464 snooper.log false} src:{0 0 src true} src/test:{0 0 src/test true} src/test/java:{0 0 src/test/java true} src/test/java/APIRunner.java:{7850812801501036521 1032 src/test/java/APIRunner.java false} src/test/java/ParallelRunner.java:{15835990256694852921 643 src/test/java/ParallelRunner.java false} src/test/java/TagRunner.java:{16225404343123923587 824 src/test/java/TagRunner.java false} src/test/java/TestRunner.java:{9767021977487237997 793 src/test/java/TestRunner.java false} src/test/resources:{0 0 src/test/resources true} src/test/resources/Karate-config.js:{16327507150798637260 338 src/test/resources/Karate-config.js false} src/test/resources/apis:{0 0 src/test/resources/apis true} src/test/resources/apis/features:{0 0 src/test/resources/apis/features true} src/test/resources/apis/features/DeleteRequest.feature:{7215814100712510453 302 src/test/resources/apis/features/DeleteRequest.feature false} src/test/resources/apis/features/GetRequest.feature:{15584434973548180755 977 src/test/resources/apis/features/GetRequest.feature false} src/test/resources/apis/features/PostRequest.feature:{14869628535307320508 964 src/test/resources/apis/features/PostRequest.feature false} src/test/resources/apis/features/PutRequest.feature:{12666796336522385911 357 src/test/resources/apis/features/PutRequest.feature false} src/test/resources/logback-test.xml:{6758398796316335698 711 src/test/resources/logback-test.xml false} target:{0 0 target true} target/karate.log:{16462827523834632322 448044 target/karate.log false}]"}
+{"level":"debug","time":"2025-05-13T13:33:20.892+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/dhakshath/Documents/KarateAPI"}
+{"level":"debug","time":"2025-05-13T13:33:20.907+0530","caller":"core/lifecycle.go:659","msg":"Zip file size: 2.38 kB"}
+{"level":"debug","time":"2025-05-13T13:33:20.907+0530","caller":"core/lifecycle.go:669","msg":"Archive location: /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-2190322f-2684-411f-828f-673684ef21f9.zip\n"}
+{"level":"debug","time":"2025-05-13T13:33:20.908+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.38 kB, source path /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-2190322f-2684-411f-828f-673684ef21f9.zip"}
+{"level":"debug","time":"2025-05-13T13:33:21.164+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-05-13T13:33:31.031+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.1238295s"}
+{"level":"debug","time":"2025-05-13T13:33:31.032+0530","caller":"receptionmanager/setup.go:277","msg":"only one runtime entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-05-13T13:33:31.032+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-05-13T13:33:31.033+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/dhakshath/Documents/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:33:31.033+0530","caller":"storage/azure.go:59","msg":"Payload size: 3.52 kB, source path /Users/dhakshath/Documents/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-05-13T13:33:41.115+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.082269125s"}
+{"level":"debug","time":"2025-05-13T13:33:41.115+0530","caller":"core/lifecycle.go:696","msg":"Successfully deleted code archive: /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-2190322f-2684-411f-828f-673684ef21f9.zip\n"}
+{"level":"debug","time":"2025-05-13T13:33:41.116+0530","caller":"storage/azure.go:59","msg":"Payload size: 613 B, source path mask-2190322f-2684-411f-828f-673684ef21f9.yaml"}
+{"level":"info","time":"2025-05-13T13:33:51.227+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.110949625s"}
+{"level":"debug","time":"2025-05-13T13:33:53.368+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123432212563481HUG"}
+{"level":"debug","time":"2025-05-13T13:33:53.369+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123432212563481HUG"}
+{"level":"info","time":"2025-05-13T13:33:55.731+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4m2190322f-2684-411f-828f-673684ef21f9\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:33:55.731+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=2190322f-2684-411f-828f-673684ef21f9\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-05-13T13:34:01.809+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:05.047+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (4s)\u001b[22m\n"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123444337826914ACT"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123444337826914ACT"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123444391040904XGJ"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123444391040904XGJ"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123444442626382PEP"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123444442626382PEP"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123444494201580ZRU"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123444494201580ZRU"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123444568045506GPC"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123444568045506GPC"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123444632767118KWD"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123444632767118KWD"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123444678082996DYR"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123444678082996DYR"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123444716166722ILV"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123444716166722ILV"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123444790941795LEU"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123444790941795LEU"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123444843625755GOV"}
+{"level":"debug","time":"2025-05-13T13:34:06.254+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123444843625755GOV"}
+{"level":"info","time":"2025-05-13T13:34:14.161+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2msetup-runtime (6s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:14.165+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2msetup-runtime (6s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:14.560+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [11]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:15.019+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:17.027+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:17.228+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:17.311+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2msetup-runtime (9s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:17.807+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:17.857+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:21.190+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2msetup-runtime (11s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:36.138+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:16 (19s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:36.439+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:34 (19s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:36.999+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:23 (19s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:37.032+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [11]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:26 (19s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:42.372+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:10 (21s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:43.218+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:38 (23s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:43.703+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2msrc/test/resources/apis/features/PutRequest.feature:10 (23s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:43.857+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:30 (22s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:43.936+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2msrc/test/resources/apis/features/DeleteRequest.feature:10 (22s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:34:46.860+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:18 (22s)\u001b[22m\n"}
+{"level":"debug","time":"2025-05-13T13:34:49.293+0530","caller":"jobmanager/sse_setup.go:141","msg":"\n\nJob status"}
+{"level":"debug","time":"2025-05-13T13:34:49.294+0530","caller":"core/lifecycle.go:874","msg":"Context canceled"}
+{"level":"info","time":"2025-05-13T13:34:49.294+0530","caller":"core/lifecycle.go:877","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2025-05-13T13:34:49.294+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=2190322f-2684-411f-828f-673684ef21f9\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-05-13T13:34:49.294+0530","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-13T13:34:49.294+0530","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-05-13T13:34:50.123+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n\u001b[102m\u001b[1m\u001b[30m COMPLETED \u001b[0m\u001b[22m\u001b[0m\n"}
+{"level":"info","time":"2025-05-13T13:34:50.125+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTest Execution Time\u001b[22m:                  \u001b[92m29s\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:34:50.125+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mJob Duration Time\u001b[22m:                    53s"}
+{"level":"info","time":"2025-05-13T13:34:50.125+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Tasks\u001b[22m:                          11"}
+{"level":"info","time":"2025-05-13T13:34:50.125+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mCumulative Time Consumed\u001b[22m:             5m43s"}
+{"level":"info","time":"2025-05-13T13:34:50.125+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Stages\u001b[22m:                         11"}
+{"level":"info","time":"2025-05-13T13:34:50.125+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass discovery stage percentage\u001b[22m:      100.00%"}
+{"level":"info","time":"2025-05-13T13:34:50.125+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed discovery stage percentage\u001b[22m:    0.00%"}
+{"level":"info","time":"2025-05-13T13:34:50.125+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass pre stage percentage\u001b[22m:            0.00%"}
+{"level":"info","time":"2025-05-13T13:34:50.125+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed pre stage percentage\u001b[22m:          0.00%"}
+{"level":"info","time":"2025-05-13T13:34:50.125+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass test stage percentage\u001b[22m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:34:50.125+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed test stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-05-13T13:34:50.125+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass post stage percentage\u001b[22m:           0.00%"}
+{"level":"info","time":"2025-05-13T13:34:50.125+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed post stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-05-13T13:34:50.125+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed Tasks\u001b[22m:                         0"}
+{"level":"info","time":"2025-05-13T13:34:50.125+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-05-13T13:35:19.293+0530","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-05-13T13:35:53.773+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-05-13T13:35:54.552+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.272} "}
+{"level":"debug","time":"2025-05-13T13:35:57.716+0530","caller":"core/lifecycle.go:108","msg":"Setting environment"}
+{"level":"debug","time":"2025-05-13T13:35:57.716+0530","caller":"core/lifecycle.go:111","msg":"Parsing config"}
+{"level":"debug","time":"2025-05-13T13:35:57.717+0530","caller":"yamlconfigmanager/setup.go:717","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:35:57.717+0530","caller":"yamlconfigmanager/setup.go:117","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:35:58.599+0530","caller":"yamlconfigmanager/setup.go:2108","msg":"Autodetecting test type in files of path : /Users/dhakshath/Documents/KarateAPI"}
+{"level":"debug","time":"2025-05-13T13:35:58.601+0530","caller":"yamlconfigmanager/setup.go:541","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-05-13T13:35:58.601+0530","caller":"models/HypertestYamlConfig.go:874","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-05-13T13:35:58.601+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:35:58.601+0530","caller":"models/HypertestYamlConfig.go:735","msg":"Runson:    \u001b[36mmac\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:35:58.602+0530","caller":"models/HypertestYamlConfig.go:743","msg":"Concurrency:    \u001b[36m10\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:35:58.602+0530","caller":"models/HypertestYamlConfig.go:807","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:35:58.602+0530","caller":"models/HypertestYamlConfig.go:887","msg":""}
+{"level":"debug","time":"2025-05-13T13:35:58.602+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:35:58.602+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-05-13T13:36:00.552+0530","caller":"core/lifecycle.go:516","msg":"Job ID: 6ce3c98b-3d30-4646-9558-e9295e5fa61b"}
+{"level":"debug","time":"2025-05-13T13:36:00.553+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-05-13T13:36:00.554+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-05-13T13:36:01.663+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[.gitignore:{6789880119083260772 539 .gitignore false} .idea:{0 0 .idea true} .idea/.gitignore:{16279786366844463540 122 .idea/.gitignore false} .idea/gradle.xml:{4659657774069657883 558 .idea/gradle.xml false} .idea/misc.xml:{16225606672018911431 354 .idea/misc.xml false} .idea/workspace.xml:{11434788426567933113 10109 .idea/workspace.xml false} build.gradle:{6402680117770863533 524 build.gradle false} cucumber_context.json:{10190887627203814083 8228 cucumber_context.json false} gradle:{0 0 gradle true} gradle/wrapper:{0 0 gradle/wrapper true} gradle/wrapper/gradle-wrapper.jar:{8142569059071412300 60756 gradle/wrapper/gradle-wrapper.jar false} gradle/wrapper/gradle-wrapper.properties:{5454816729783508739 231 gradle/wrapper/gradle-wrapper.properties false} gradlew:{7922637049471180284 8070 gradlew false} gradlew.bat:{16664544825820606439 2763 gradlew.bat false} hyperexecute.yaml:{2200143411507561283 650 hyperexecute.yaml false} hyperexecute__metadata__.json:{8720704765352721524 51 hyperexecute__metadata__.json false} settings.gradle:{14290926963802788158 30 settings.gradle false} snooper.log:{10362262988316453443 14464 snooper.log false} src:{0 0 src true} src/test:{0 0 src/test true} src/test/java:{0 0 src/test/java true} src/test/java/APIRunner.java:{7850812801501036521 1032 src/test/java/APIRunner.java false} src/test/java/ParallelRunner.java:{15835990256694852921 643 src/test/java/ParallelRunner.java false} src/test/java/TagRunner.java:{16225404343123923587 824 src/test/java/TagRunner.java false} src/test/java/TestRunner.java:{9767021977487237997 793 src/test/java/TestRunner.java false} src/test/resources:{0 0 src/test/resources true} src/test/resources/Karate-config.js:{16327507150798637260 338 src/test/resources/Karate-config.js false} src/test/resources/apis:{0 0 src/test/resources/apis true} src/test/resources/apis/features:{0 0 src/test/resources/apis/features true} src/test/resources/apis/features/DeleteRequest.feature:{7215814100712510453 302 src/test/resources/apis/features/DeleteRequest.feature false} src/test/resources/apis/features/GetRequest.feature:{15584434973548180755 977 src/test/resources/apis/features/GetRequest.feature false} src/test/resources/apis/features/PostRequest.feature:{14869628535307320508 964 src/test/resources/apis/features/PostRequest.feature false} src/test/resources/apis/features/PutRequest.feature:{12666796336522385911 357 src/test/resources/apis/features/PutRequest.feature false} src/test/resources/logback-test.xml:{6758398796316335698 711 src/test/resources/logback-test.xml false} target:{0 0 target true} target/karate.log:{16462827523834632322 448044 target/karate.log false}]"}
+{"level":"debug","time":"2025-05-13T13:36:01.663+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/dhakshath/Documents/KarateAPI"}
+{"level":"debug","time":"2025-05-13T13:36:01.684+0530","caller":"core/lifecycle.go:659","msg":"Zip file size: 4.72 kB"}
+{"level":"debug","time":"2025-05-13T13:36:01.684+0530","caller":"core/lifecycle.go:669","msg":"Archive location: /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-6ce3c98b-3d30-4646-9558-e9295e5fa61b.zip\n"}
+{"level":"debug","time":"2025-05-13T13:36:01.684+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.72 kB, source path /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-6ce3c98b-3d30-4646-9558-e9295e5fa61b.zip"}
+{"level":"debug","time":"2025-05-13T13:36:01.698+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-05-13T13:36:11.828+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.14409175s"}
+{"level":"debug","time":"2025-05-13T13:36:11.829+0530","caller":"receptionmanager/setup.go:277","msg":"only one runtime entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-05-13T13:36:11.829+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-05-13T13:36:11.830+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/dhakshath/Documents/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-05-13T13:36:11.830+0530","caller":"storage/azure.go:59","msg":"Payload size: 3.55 kB, source path /Users/dhakshath/Documents/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-05-13T13:36:21.907+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.077784833s"}
+{"level":"debug","time":"2025-05-13T13:36:21.908+0530","caller":"core/lifecycle.go:696","msg":"Successfully deleted code archive: /Users/dhakshath/Documents/KarateAPI/hyperexecute-code-6ce3c98b-3d30-4646-9558-e9295e5fa61b.zip\n"}
+{"level":"debug","time":"2025-05-13T13:36:21.909+0530","caller":"storage/azure.go:59","msg":"Payload size: 648 B, source path mask-6ce3c98b-3d30-4646-9558-e9295e5fa61b.yaml"}
+{"level":"info","time":"2025-05-13T13:36:31.981+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.072833541s"}
+{"level":"debug","time":"2025-05-13T13:36:34.260+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123593081729519FBQ"}
+{"level":"debug","time":"2025-05-13T13:36:34.261+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123593081729519FBQ"}
+{"level":"info","time":"2025-05-13T13:36:36.333+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4m6ce3c98b-3d30-4646-9558-e9295e5fa61b\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:36:36.333+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=6ce3c98b-3d30-4646-9558-e9295e5fa61b\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-05-13T13:36:43.060+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:36:46.179+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (3s)\u001b[22m\n"}
+{"level":"debug","time":"2025-05-13T13:36:47.009+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123605377535333BBD"}
+{"level":"debug","time":"2025-05-13T13:36:47.009+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123605377535333BBD"}
+{"level":"debug","time":"2025-05-13T13:36:47.009+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123605426018150IYC"}
+{"level":"debug","time":"2025-05-13T13:36:47.009+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123605426018150IYC"}
+{"level":"debug","time":"2025-05-13T13:36:47.009+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123605474280411LDV"}
+{"level":"debug","time":"2025-05-13T13:36:47.010+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123605474280411LDV"}
+{"level":"debug","time":"2025-05-13T13:36:47.010+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123605517440984EIA"}
+{"level":"debug","time":"2025-05-13T13:36:47.010+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123605517440984EIA"}
+{"level":"debug","time":"2025-05-13T13:36:47.010+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123605564237549WPD"}
+{"level":"debug","time":"2025-05-13T13:36:47.010+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123605564237549WPD"}
+{"level":"debug","time":"2025-05-13T13:36:47.010+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123605600574477EJV"}
+{"level":"debug","time":"2025-05-13T13:36:47.010+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123605600574477EJV"}
+{"level":"debug","time":"2025-05-13T13:36:47.010+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123605633414640DLK"}
+{"level":"debug","time":"2025-05-13T13:36:47.010+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123605633414640DLK"}
+{"level":"debug","time":"2025-05-13T13:36:47.010+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123605691639650HMO"}
+{"level":"debug","time":"2025-05-13T13:36:47.010+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123605691639650HMO"}
+{"level":"debug","time":"2025-05-13T13:36:47.010+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123605735246016NVC"}
+{"level":"debug","time":"2025-05-13T13:36:47.010+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123605735246016NVC"}
+{"level":"debug","time":"2025-05-13T13:36:47.010+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPM-1530760-1747123605808260407RGL"}
+{"level":"debug","time":"2025-05-13T13:36:47.010+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPM-1530760-1747123605808260407RGL"}
+{"level":"info","time":"2025-05-13T13:36:54.883+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:36:55.284+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:36:57.469+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [11]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:36:57.817+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2msetup-runtime (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:36:58.653+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:36:58.747+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:36:58.789+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:36:58.924+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2msetup-runtime (9s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:36:59.313+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2msetup-runtime (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:37:00.751+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2msetup-runtime (10s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:37:15.379+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2msrc/test/resources/apis/features/PutRequest.feature:10 (17s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:37:17.803+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [11]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:26 (17s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:37:18.612+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:38 (21s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:37:19.379+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:10 (18s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:37:23.030+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2msrc/test/resources/apis/features/DeleteRequest.feature:10 (20s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:37:23.473+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:16 (20s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:37:24.122+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:23 (21s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:37:24.643+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2msrc/test/resources/apis/features/GetRequest.feature:30 (22s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:37:24.691+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:34 (20s)\u001b[22m\n"}
+{"level":"info","time":"2025-05-13T13:37:25.292+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2msrc/test/resources/apis/features/PostRequest.feature:18 (21s)\u001b[22m\n"}
+{"level":"debug","time":"2025-05-13T13:37:27.705+0530","caller":"jobmanager/sse_setup.go:141","msg":"\n\nJob status"}
+{"level":"debug","time":"2025-05-13T13:37:27.705+0530","caller":"core/lifecycle.go:874","msg":"Context canceled"}
+{"level":"info","time":"2025-05-13T13:37:27.705+0530","caller":"core/lifecycle.go:877","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2025-05-13T13:37:27.705+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=6ce3c98b-3d30-4646-9558-e9295e5fa61b\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-05-13T13:37:27.706+0530","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-05-13T13:37:27.706+0530","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-05-13T13:37:28.536+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n\u001b[102m\u001b[1m\u001b[30m COMPLETED \u001b[0m\u001b[22m\u001b[0m\n"}
+{"level":"info","time":"2025-05-13T13:37:28.537+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTest Execution Time\u001b[22m:                  \u001b[92m27s\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:37:28.537+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mJob Duration Time\u001b[22m:                    50s"}
+{"level":"info","time":"2025-05-13T13:37:28.537+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Tasks\u001b[22m:                          11"}
+{"level":"info","time":"2025-05-13T13:37:28.537+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mCumulative Time Consumed\u001b[22m:             5m32s"}
+{"level":"info","time":"2025-05-13T13:37:28.537+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Stages\u001b[22m:                         11"}
+{"level":"info","time":"2025-05-13T13:37:28.537+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass discovery stage percentage\u001b[22m:      100.00%"}
+{"level":"info","time":"2025-05-13T13:37:28.537+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed discovery stage percentage\u001b[22m:    0.00%"}
+{"level":"info","time":"2025-05-13T13:37:28.537+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass pre stage percentage\u001b[22m:            0.00%"}
+{"level":"info","time":"2025-05-13T13:37:28.537+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed pre stage percentage\u001b[22m:          0.00%"}
+{"level":"info","time":"2025-05-13T13:37:28.537+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass test stage percentage\u001b[22m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-05-13T13:37:28.537+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed test stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-05-13T13:37:28.537+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass post stage percentage\u001b[22m:           0.00%"}
+{"level":"info","time":"2025-05-13T13:37:28.537+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed post stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-05-13T13:37:28.537+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed Tasks\u001b[22m:                         0"}
+{"level":"info","time":"2025-05-13T13:37:28.537+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-05-13T13:37:57.707+0530","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}

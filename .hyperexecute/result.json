@@ -1,0 +1,331 @@
+{
+    "id": "6ce3c98b-3d30-4646-9558-e9295e5fa61b",
+    "created_at": "2025-05-13T08:06:00Z",
+    "update_at": "2025-05-13T08:07:24Z",
+    "global_timeout": 90,
+    "tunnel_name": "",
+    "start_time": "2025-05-13T08:06:34Z",
+    "end_time": "2025-05-13T08:07:24Z",
+    "summary": {
+        "total_time": 50000000000,
+        "execution_time": 50000000000,
+        "total_tasks": 11,
+        "build_time_consumed": 332000000000,
+        "jobTestExecutionTime": "27s",
+        "failed_tasks": 0,
+        "total_stage_info": {
+            "scenario": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 10
+            },
+            "test_discovery": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 1
+            }
+        },
+        "status": "completed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=6ce3c98b-3d30-4646-9558-e9295e5fa61b"
+    },
+    "tasks": [
+        {
+            "id": "HYPM-1530760-1747123593081729519FBQ",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-05-13T08:06:33Z",
+            "update_at": "2025-05-13T08:06:46Z",
+            "start_time": "2025-05-13T08:06:34Z",
+            "end_time": "2025-05-13T08:06:46Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "161f821e-41ca-4878-8e8d-a50b8b24a014",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2025-05-13T08:06:42Z",
+                    "started_at": "2025-05-13T08:06:42Z",
+                    "updated_at": "2025-05-13T08:06:45Z",
+                    "order": 2,
+                    "task_number": 1
+                }
+            ]
+        },
+        {
+            "id": "HYPM-1530760-1747123605377535333BBD",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-05-13T08:06:45Z",
+            "update_at": "2025-05-13T08:07:24Z",
+            "start_time": "2025-05-13T08:06:49Z",
+            "end_time": "2025-05-13T08:07:24Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "fd3668e9-ebde-426f-a985-1e304876c6a4",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "src/test/resources/apis/features/GetRequest.feature:30",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-05-13T08:06:58Z",
+                    "started_at": "2025-05-13T08:07:02Z",
+                    "updated_at": "2025-05-13T08:07:23Z",
+                    "order": 3,
+                    "task_number": 2
+                }
+            ]
+        },
+        {
+            "id": "HYPM-1530760-1747123605426018150IYC",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-05-13T08:06:45Z",
+            "update_at": "2025-05-13T08:07:14Z",
+            "start_time": "2025-05-13T08:06:47Z",
+            "end_time": "2025-05-13T08:07:14Z",
+            "group_number": 3,
+            "stages": [
+                {
+                    "id": "3475131d-e047-4521-8415-009cbd19e809",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "src/test/resources/apis/features/PutRequest.feature:10",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-05-13T08:06:54Z",
+                    "started_at": "2025-05-13T08:06:57Z",
+                    "updated_at": "2025-05-13T08:07:14Z",
+                    "order": 3,
+                    "task_number": 3
+                }
+            ]
+        },
+        {
+            "id": "HYPM-1530760-1747123605474280411LDV",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-05-13T08:06:45Z",
+            "update_at": "2025-05-13T08:07:17Z",
+            "start_time": "2025-05-13T08:06:47Z",
+            "end_time": "2025-05-13T08:07:17Z",
+            "group_number": 4,
+            "stages": [
+                {
+                    "id": "1a0c50ab-8c6d-4fbd-b8d3-e36c63a2302e",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "src/test/resources/apis/features/GetRequest.feature:38",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-05-13T08:06:53Z",
+                    "started_at": "2025-05-13T08:06:57Z",
+                    "updated_at": "2025-05-13T08:07:17Z",
+                    "order": 3,
+                    "task_number": 4
+                }
+            ]
+        },
+        {
+            "id": "HYPM-1530760-1747123605517440984EIA",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-05-13T08:06:45Z",
+            "update_at": "2025-05-13T08:07:24Z",
+            "start_time": "2025-05-13T08:06:49Z",
+            "end_time": "2025-05-13T08:07:24Z",
+            "group_number": 5,
+            "stages": [
+                {
+                    "id": "b7c883da-8f15-41df-86f3-b4fdc0dfa88d",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "src/test/resources/apis/features/PostRequest.feature:34",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-05-13T08:06:59Z",
+                    "started_at": "2025-05-13T08:07:04Z",
+                    "updated_at": "2025-05-13T08:07:23Z",
+                    "order": 3,
+                    "task_number": 5
+                }
+            ]
+        },
+        {
+            "id": "HYPM-1530760-1747123605564237549WPD",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-05-13T08:06:45Z",
+            "update_at": "2025-05-13T08:07:22Z",
+            "start_time": "2025-05-13T08:06:49Z",
+            "end_time": "2025-05-13T08:07:22Z",
+            "group_number": 6,
+            "stages": [
+                {
+                    "id": "11f3c866-c764-4923-ab0a-98bf2a3fcf1f",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "src/test/resources/apis/features/GetRequest.feature:16",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-05-13T08:06:58Z",
+                    "started_at": "2025-05-13T08:07:02Z",
+                    "updated_at": "2025-05-13T08:07:22Z",
+                    "order": 3,
+                    "task_number": 6
+                }
+            ]
+        },
+        {
+            "id": "HYPM-1530760-1747123605600574477EJV",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-05-13T08:06:45Z",
+            "update_at": "2025-05-13T08:07:18Z",
+            "start_time": "2025-05-13T08:06:49Z",
+            "end_time": "2025-05-13T08:07:18Z",
+            "group_number": 7,
+            "stages": [
+                {
+                    "id": "cc84273c-7a5d-4f7c-80d6-5124f208b730",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "src/test/resources/apis/features/PostRequest.feature:10",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-05-13T08:06:56Z",
+                    "started_at": "2025-05-13T08:07:00Z",
+                    "updated_at": "2025-05-13T08:07:18Z",
+                    "order": 3,
+                    "task_number": 7
+                }
+            ]
+        },
+        {
+            "id": "HYPM-1530760-1747123605633414640DLK",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-05-13T08:06:45Z",
+            "update_at": "2025-05-13T08:07:22Z",
+            "start_time": "2025-05-13T08:06:49Z",
+            "end_time": "2025-05-13T08:07:22Z",
+            "group_number": 8,
+            "stages": [
+                {
+                    "id": "dc544686-6309-4f93-bdb5-e3e4da1034b6",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "src/test/resources/apis/features/DeleteRequest.feature:10",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-05-13T08:06:57Z",
+                    "started_at": "2025-05-13T08:07:02Z",
+                    "updated_at": "2025-05-13T08:07:21Z",
+                    "order": 3,
+                    "task_number": 8
+                }
+            ]
+        },
+        {
+            "id": "HYPM-1530760-1747123605691639650HMO",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-05-13T08:06:45Z",
+            "update_at": "2025-05-13T08:07:23Z",
+            "start_time": "2025-05-13T08:06:49Z",
+            "end_time": "2025-05-13T08:07:23Z",
+            "group_number": 9,
+            "stages": [
+                {
+                    "id": "32bcdc6f-2bb6-4ad7-aff8-32dd03c1899d",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "src/test/resources/apis/features/GetRequest.feature:23",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-05-13T08:06:57Z",
+                    "started_at": "2025-05-13T08:07:02Z",
+                    "updated_at": "2025-05-13T08:07:23Z",
+                    "order": 3,
+                    "task_number": 9
+                }
+            ]
+        },
+        {
+            "id": "HYPM-1530760-1747123605735246016NVC",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-05-13T08:06:45Z",
+            "update_at": "2025-05-13T08:07:24Z",
+            "start_time": "2025-05-13T08:06:49Z",
+            "end_time": "2025-05-13T08:07:24Z",
+            "group_number": 10,
+            "stages": [
+                {
+                    "id": "66b807d9-fd2b-4916-bedf-43b396acb6ee",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "src/test/resources/apis/features/PostRequest.feature:18",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-05-13T08:06:58Z",
+                    "started_at": "2025-05-13T08:07:03Z",
+                    "updated_at": "2025-05-13T08:07:24Z",
+                    "order": 3,
+                    "task_number": 10
+                }
+            ]
+        },
+        {
+            "id": "HYPM-1530760-1747123605808260407RGL",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-05-13T08:06:45Z",
+            "update_at": "2025-05-13T08:07:17Z",
+            "start_time": "2025-05-13T08:06:48Z",
+            "end_time": "2025-05-13T08:07:17Z",
+            "group_number": 11,
+            "stages": [
+                {
+                    "id": "af65ec0a-aba0-4342-a75a-86718470c996",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "src/test/resources/apis/features/PostRequest.feature:26",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-05-13T08:06:56Z",
+                    "started_at": "2025-05-13T08:07:00Z",
+                    "updated_at": "2025-05-13T08:07:16Z",
+                    "order": 3,
+                    "task_number": 11
+                }
+            ]
+        }
+    ],
+    "test_ids": null
+}

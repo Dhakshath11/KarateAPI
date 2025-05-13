@@ -1,0 +1,35 @@
+version: 0.1
+runson: mac
+
+autosplit: true
+concurrency: 10
+
+runtime:
+  language: java
+  version: 17
+
+testDiscovery:
+  type: raw
+  mode: remote
+  command: snooper --targetOs=mac --featureFilePaths=src/test/resources/apis/features --frameWork=java
+
+testRunnerCommand: |
+  echo "Running test: $test"
+  ./gradlew test --tests APIRunner  -Dkarate.options=$test
+
+jobLabel: ['Karate', 'API']
+
+scenarioCommandStatusOnly: true
+# For API scenarios to avoid marking of skip after execution
+
+project:
+  name: Karate API Project
+differentialUpload:
+  enabled: true
+  ttlHours: 24
+
+report: true
+partialReports:
+  location: build/karate-reports/karate-summary.html
+  type: html
+  frameworkName: karate

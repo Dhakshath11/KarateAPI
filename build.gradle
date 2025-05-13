@@ -1,0 +1,24 @@
+plugins {
+    id('java')
+}
+
+group = 'com.lambdatest.sample'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/com.intuit.karate/karate-junit5
+    testImplementation('com.intuit.karate:karate-junit5:1.4.1')
+}
+
+test {
+    useJUnitPlatform()
+    maxParallelForks = 4
+    // pull karate options into the runtime
+    systemProperty "karate.options", System.getProperty("karate.options")
+    // ensure tests are always run
+    outputs.upToDateWhen { false }
+}
