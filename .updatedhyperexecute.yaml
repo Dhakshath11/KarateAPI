@@ -1,12 +1,16 @@
 accessibilityJob: false
 alwaysRunPostSteps: true
-appium: null
+appium: false
 autosplit: true
 betaFeature:
     setPartiallyCompletedAsCompleted: false
+cacheDirectories:
+    - .gradle
+    - gradle/wrapper
+cacheKey: '{{ checksum "build.gradle" }}'
 captureScreenRecordingForScenarios: false
 codeDirectory: KarateAPI
-collectLocalGitData: true
+collectLocalGitData: false
 combineTasksInMatrixMode: false
 concurrency: 10
 cypress: false
@@ -23,7 +27,6 @@ framework:
         appPath: ""
         artifacts: false
         avoidAppLaunch: false
-        customData: {}
         deviceSelectionStrategy: ""
         devices: []
         disableReleaseDevice: false
@@ -49,7 +52,6 @@ framework:
         skipInstall: false
         skipUninstallPreviousBuild: false
         skipXMLOnRun: false
-        smartUI: null
         testSuiteAppId: ""
         testSuitePath: ""
         uninstallPreviousBuild: false
@@ -71,32 +73,25 @@ framework:
     version: ""
     workingDirectory: ""
 globalPost:
-    commands:
-        - ls -la
-        - pwd
-        - cd build; ls -la
+    commands: []
     completed: false
-    mode: remote
+    mode: ""
     runson: ""
     shell: ""
     workingDirectory: ""
 globalPre:
-    cache: false
     commands: []
     completed: false
-    location: ""
     maxRetries: 0
     mode: ""
     runson: ""
     shell: ""
-    type: ""
     workingDirectory: ""
-    yamlPath: null
-jobID: 4473ef39-1159-4c95-b64c-f06490c3f392
+jobID: a4cc5eb8-063d-4f43-81e4-68dcd70fe488
 jobLabel:
     - Karate
     - API
-key: LT_Pf3gLJhEz0t7X2h7gQca0y2fAzQJVUl6SwRxPNPlsPatcXf
+key: LT_ry2st1BzTpPPhWDaEnUGtdQC09Ixq5uDQV6rJ3Mpb1FxVdN
 localHTTPProxy: ""
 maxRetriesPreSteps: 0
 meta: {}
@@ -115,14 +110,19 @@ postDirectives:
     commands: []
     shell: ""
     workingDirectory: ""
+pre:
+    - echo "Starting Test..."
+    - ./gradlew dependencies --refresh-dependencies --gradle-user-home=.gradle --no-daemon
 preDirectives:
-    commands: []
+    commands:
+        - echo "Starting Test..."
+        - ./gradlew dependencies --refresh-dependencies --gradle-user-home=.gradle --no-daemon
     maxRetries: 0
     shell: ""
     workingDirectory: ""
 project:
-    id: 01JV49A54FRP0RYJD3VWGSQYVV
-    name: Karate API Project
+    id: 01JV4VG45G54M7YFYVQN7T9QF0
+    name: Dhakshath11_KarateAPI
     type: custom
 projectpath: ""
 regionConfig:
@@ -133,26 +133,20 @@ regionConfig:
         region: ""
     vm: []
 report: true
-runson: mac
-runtime:
-    addons: []
-    language: java
-    opts: {}
-    version: "17"
+runson: linux
 scenarioCommandStatusOnly: true
 slackChannel: ""
 sourcePayload:
     verifySSL: true
-sprofilePath: ""
 storageType: ""
 testDiscovery:
-    command: snooper --targetOs=mac --featureFilePaths=src/test/resources/apis/features --frameWork=java
+    command: /home/ltuser/snooper --featureFilePaths=src/test/resources/apis/features --frameWork=java  --specificTags=@PutRequest @CreateNewUser
     mode: remote
     type: raw
 testDiscoveryResultV3: []
 testRunnerCommand: |
     echo "Running test: $test"
-    ./gradlew test --tests APIRunner  -Dkarate.options=$test
+    ./gradlew test --tests APIRunner  -Dkarate.options=$test -d
 testSuites: []
 triggerMode: false
 tunnelOpts:
@@ -173,7 +167,7 @@ uploadArtefacts:
       name: Karate Report
       path:
         - build/karate-reports/
-user: dhakshathamin
+user: onpremezztt
 version: "0.1"
 waitForArtefactsUpload: false
 whiteLabelProductTag: ""
