@@ -1,23 +1,19 @@
 version: 0.1
-runson: mac
+runson: linux
 
 autosplit: true
 concurrency: 10
-
-runtime:
-  language: java
-  version: 17
 
 alwaysRunPostSteps: true
 
 testDiscovery:
   type: raw
   mode: remote
-  command: snooper --targetOs=mac --featureFilePaths=src/test/resources/apis/features --frameWork=java
+  command: /home/ltuser/snooper --featureFilePaths=src/test/resources/apis/features --frameWork=java  --specificTags=@PutRequest @CreateNewUser
 
 testRunnerCommand: |
   echo "Running test: $test"
-  ./gradlew test --tests APIRunner  -Dkarate.options=$test
+  ./gradlew test --tests APIRunner  -Dkarate.options=$test -d
 
 jobLabel: ['Karate', 'API']
 
@@ -25,7 +21,8 @@ scenarioCommandStatusOnly: true
 # For API scenarios to avoid marking of skip after execution
 
 project:
-  name: Karate API Project
+  name: Dhakshath11_KarateAPI
+  id: 01JV4VG45G54M7YFYVQN7T9QF0
 differentialUpload:
   enabled: true
   ttlHours: 24
