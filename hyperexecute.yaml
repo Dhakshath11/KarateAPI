@@ -44,9 +44,11 @@ uploadArtefacts:
     path:
         - build/karate-reports/
 
-globalPost:
-  mode: remote
-  commands:
-    - ls -la
-    - pwd
-    - cd build; ls -la
+cacheKey: '{{ checksum "build.gradle" }}'
+cacheDirectories:
+  - .gradle
+  - gradle/wrapper
+
+pre:
+  - echo "Starting Test..."
+  - ./gradlew dependencies --refresh-dependencies --gradle-user-home=.gradle --no-daemon
