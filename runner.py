@@ -135,10 +135,11 @@ for repo_key, repo_data in repos.items():
         origin_url = origin_url.replace(".git", "")
 
         commit_url = f"{origin_url}/commit/{commit_hash}"
-        pr_url = f"{origin_url}/compare/{quote(release_version)}?expand=1"
+        pr_url = f"{origin_url}/compare/release_{quote(release_version)}?expand=1"
 
         print(f"[✅] Commit pushed: {commit_url}")
         print(f"[🔗] Create PR: {pr_url}")
+        print()
 
     except KeyError as e:
         print(f"[❌] Missing expected key in {repo_key}: {e}")

@@ -3,14 +3,14 @@ releaseTag: 1.1.8
 reception:
   image:
     repository: "reception"
-    tag: "04e720eae2442d667e309d61d6b9d608cdd6666666"
+    tag: "04e720eae2442d667e309d61d6b9d608cdd4b36A"
 
 kitchen:
   image:
     repository: "kitchen"
-    tag: "04e720eae2442d667e309d61d6b9d608cdd4d36b"
+    tag: "04e720eae2442d667e309d61d6b9d608cdd4d36B"
 
 room:
   image:
     repository: "room"
-    tag: "04e720eae2442d667e309d61d6b9d608cdd4d36c"
+    tag: "04e720eae2442d667e309d61d6b9d608cdd4d36C"
