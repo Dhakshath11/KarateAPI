@@ -6,6 +6,7 @@ from urllib.parse import quote
 
 # ---- CONFIG ---- #
 YAML_FILE = "release_config.yml"
+PR_FILE_PATH = "/Users/dhakshath/Desktop/PR_File.txt"
 DEPLOY_DIR = os.path.join(os.getcwd(), "deployments") 
 
 # ---- INIT ---- #
@@ -141,7 +142,7 @@ for repo_key, repo_data in repos.items():
         print(f"[✅] Commit pushed: {commit_url}")
         print(f"[🔗] Create PR: {pr_url}")
 
-        with open("PR_File.txt", "a") as pr_file:
+        with open(PR_FILE_PATH, "a") as pr_file:
             pr_file.write(f"{repo_name} : {pr_url}\n")
         
         print()
