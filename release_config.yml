@@ -3,7 +3,7 @@ releaseTag: 1.1.8
 reception:
   image:
     repository: "reception"
-    tag: "04e720eae2442d667e309d61d6b9d608cdd6666666"
+    tag: "04e720eae2442d667e309d61d6b9d608cdd1010101010"
 
 kitchen:
   image:
