@@ -42,3 +42,6 @@ bin/
 .DS_Store
 
 release_config.yml
+values.yaml
+old_values.yaml
+*.log
