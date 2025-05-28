@@ -99,6 +99,9 @@ for repo_key, repo_data in repos.items():
                     f":{new_tag}",
                     pattern=r":{}"
                 )
+        else:
+            print(f"[⚠️] Dockerfile not found in {repo_name}. Skipping update for this repo.")
+            continue
 
         # Step 4: Update cicd.yml
         cicd_file = os.path.join(repo_path, "cicd.yml")
@@ -121,6 +124,11 @@ for repo_key, repo_data in repos.items():
                     old_tag,
                     new_tag
                 )
+        else:
+            print(f"[⚠️] cicd.yml not found in {repo_name}. Skipping update for this repo.")
+            continue
+        
+        print(f"[✅] Updated {dockerfile} and {cicd_file} for {repo_name}")
 
         # Step 5: Git add, commit, push
         run_git_command(repo_path, "git add .")
