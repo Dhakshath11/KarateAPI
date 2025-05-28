@@ -18,7 +18,7 @@ with open("PR_File.txt", "w") as f:
 def run_git_command(repo_path, command):
     result = subprocess.run(command, cwd=repo_path, shell=True, capture_output=True, text=True)
     if result.returncode != 0:
-        print(f"[❌] Git error in {repo_path}:\n{result.stderr}")
+        print(f"[❌] Git error in {repo_path}:\n{result.stderr} with output: {result.stdout.strip()}")
         raise Exception(f"Git command failed: {command}")
     else:
         print(f"[✅] Git command succeeded: {command} with output: {result.stdout.strip()}")
