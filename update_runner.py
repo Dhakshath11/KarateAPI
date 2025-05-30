@@ -165,6 +165,7 @@ def main():
 
             log(f"  ==> Commit pushed: {commit_url}")
             log(f"  ==> Create PR: {pr_url}")
+            log(f"")
 
             with open(PR_FILE_PATH, "a") as pr_file:
                 pr_file.write(f"{repo_name} : {pr_url}\n")
@@ -176,6 +177,7 @@ def main():
 
     log(f"")
     log(f"======= Output written to: {PR_FILE_PATH} =======")
+    log(f"")
 
 
 # ---- ENTRY POINT ---- #

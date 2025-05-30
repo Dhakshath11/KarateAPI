@@ -65,7 +65,7 @@ def create_prs_from_file(pr_file_path):
 def main():
     log("=== Starting PR creation from PR_File.txt ===")
     create_prs_from_file(PR_FILE_PATH)
-    log("=== Finished PR creation ===\n")
+    log("=== Finished PR creation ===\n\n")
 
 if __name__ == "__main__":
     main()
