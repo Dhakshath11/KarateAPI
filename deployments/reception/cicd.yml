@@ -1,5 +1,5 @@
 reception:
   image:
     repository: "reception"
-    tag: "04e720eae2442d667e309d61d6b9d608cdd4b36A"
+    tag: "prod__04e720eae2442d667e309d61d6b9d608cdd4d36d"
     data: "04e720eae2442d667e309d61d6b9d608cdd4d36a"
