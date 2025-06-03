@@ -52,19 +52,24 @@ def replace_tag_in_docker_file(file_path, old_tag, new_tag, pattern):
 
 
 def replace_tag_in_cicd_file(file_path, old_tag, new_tag):
-    pattern = r'(^\s*tag:\s*["\']){}(["\'])'
-    regex = re.compile(pattern.format(re.escape(old_tag)), re.MULTILINE)
+    if not os.path.exists(file_path):
+        log(f"File not found: {file_path}")
+        return
 
-    def repl(m):
-        return f"{m.group(1)}{new_tag}{m.group(2)}"
+    # Match unquoted tag values
+    pattern = r'(^\s*tag:\s*){}(\s*)$'.format(re.escape(old_tag))
+    regex = re.compile(pattern, re.MULTILINE)
 
     with open(file_path, 'r') as f:
         content = f.read()
-    new_content, count = regex.subn(repl, content)
+
+    new_content, count = regex.subn(r'\1' + new_tag + r'\2', content)
+
     if count == 0:
         log(f"No tag replaced in cicd.yml: {file_path}")
     else:
         log(f"Updated tag in cicd.yml: {file_path}")
+
     with open(file_path, 'w') as f:
         f.write(new_content)
 
