@@ -5,7 +5,7 @@ buildPack:
   name: baseImage
 appListProperties:
   publish:
-    tag: stage-608809c884a6629dd8ec8b85af9580d0d58ce22c
+@0000000000
   containerRegistries:  # optional: override registries endpoint (available as of v2021.09.0)
     acr:
       push:  true   # optional: push certified image to acr. default: false
