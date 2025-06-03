@@ -133,7 +133,7 @@ def main():
                 for line in lines:
                     if "tag:" in line:
                         match = re.search(
-                            r'tag:\s*["\']?([\w.\-]+)["\']?', line)
+                            r'tag:\s*(?:"([^"]+)"|' + r"'([^']+)'|([^\s]+))", line)
                         if match:
                             old_tag = match.group(1)
                             break
