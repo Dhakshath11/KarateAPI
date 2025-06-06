@@ -1,0 +1,180 @@
+accessibilityJob: false
+alwaysRunPostSteps: true
+appium: null
+autosplit: true
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+cacheDirectories:
+    - .gradle
+    - gradle/wrapper
+cacheKey: '{{ checksum "build.gradle" }}'
+captureScreenRecordingForScenarios: false
+codeDirectory: KarateAPI
+collectLocalGitData: false
+combineTasksInMatrixMode: false
+concurrency: 10
+cypress: false
+differentialUpload:
+    enabled: true
+    forcedDisabled: true
+    ttlHours: 24
+dynamicAllocation: false
+errorCategorizedOnFailureOnly: false
+framework:
+    additional_args: null
+    args:
+        appId: ""
+        appPath: ""
+        artifacts: false
+        avoidAppLaunch: false
+        customData: {}
+        deviceSelectionStrategy: ""
+        devices: []
+        disableReleaseDevice: false
+        filters:
+            attributes: []
+        fixedIP: ""
+        isRealMobile: null
+        isVirtualDevice: false
+        language: ""
+        locale: ""
+        minorOsVersion: false
+        mitmProxy: false
+        mobileDC: null
+        networkHar: false
+        otherApps: []
+        platformName: ""
+        playwrightRD: false
+        preservedDevice: false
+        queueTimeout: 0
+        resignApp: true
+        shards:
+            mappings: []
+        skipInstall: false
+        skipUninstallPreviousBuild: false
+        skipXMLOnRun: false
+        smartUI: null
+        testSuiteAppId: ""
+        testSuitePath: ""
+        uninstallPreviousBuild: false
+        xcTestPlanId: ""
+        xcTestPlanPath: ""
+    baseCommand: ""
+    defaultReports: false
+    discoveryFlags: []
+    discoveryMode: ""
+    discoveryType: ""
+    downloadURL: ""
+    flags: []
+    isTestNGXMLSuite: false
+    licenseKey: ""
+    name: ""
+    runnerFlags: []
+    toscaArgs: null
+    userdefinediscovery: false
+    version: ""
+    workingDirectory: ""
+globalPost:
+    commands: []
+    completed: false
+    mode: ""
+    runson: ""
+    shell: ""
+    workingDirectory: ""
+globalPre:
+    cache: false
+    commands: []
+    completed: false
+    location: ""
+    maxRetries: 0
+    mode: ""
+    runson: ""
+    shell: ""
+    type: ""
+    workingDirectory: ""
+    yamlPath: null
+jobID: b4ed39dd-51a4-4bed-95c0-92f22dcf636a
+jobLabel:
+    - Karate
+    - API
+key: 9RwHg0djesLUC1oucbGGedWbzQDmvXbwHDfaPEssHGWuyeQXVU
+localHTTPProxy: ""
+maxRetriesPreSteps: 0
+meta: {}
+partialReports:
+    type: html
+    location: build/karate-reports
+    frameworkName: karate
+    email:
+        to: []
+        metaInfo: []
+        linkValidity: 0
+    configPath: ""
+    configPathURL: ""
+platformConfig: null
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+pre:
+    - echo "Starting Test..."
+    - ./gradlew dependencies --refresh-dependencies --gradle-user-home=.gradle --no-daemon
+preDirectives:
+    commands:
+        - echo "Starting Test..."
+        - ./gradlew dependencies --refresh-dependencies --gradle-user-home=.gradle --no-daemon
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+project:
+    id: 01JWZPWK57VDPHGDVF2M3XHAVN
+    name: dddydydy
+    type: custom
+projectpath: ""
+regionConfig:
+    storage:
+        enabled: false
+        name: ""
+        platform: azure
+        region: ""
+    vm: []
+report: true
+runson: linux
+scenarioCommandStatusOnly: true
+slackChannel: ""
+sourcePayload:
+    verifySSL: true
+sprofilePath: ""
+storageType: ""
+testDiscovery:
+    command: /home/ltuser/snooper --featureFilePaths=src/test/resources/apis/features --frameWork=java  --specificTags=@PutRequest @CreateNewUser
+    mode: remote
+    type: raw
+testDiscoveryResultV3: []
+testRunnerCommand: |
+    echo "Running test: $test"
+    ./gradlew test --tests APIRunner  -Dkarate.options=$test -d
+testSuites: []
+triggerMode: false
+tunnelOpts:
+    testsPerTunnel: 10
+unzipPayload: false
+uploadArtefacts:
+    - email:
+        linkValidity: 0
+        metaInfo: []
+        to: []
+      name: Log File
+      path:
+        - target/
+    - email:
+        linkValidity: 0
+        metaInfo: []
+        to: []
+      name: Karate Report
+      path:
+        - build/karate-reports/
+user: onpremezztt
+version: "0.1"
+waitForArtefactsUpload: false
+whiteLabelProductTag: ""
