@@ -9,20 +9,19 @@ alwaysRunPostSteps: true
 testDiscovery:
   type: raw
   mode: remote
-  command: /home/ltuser/snooper --featureFilePaths=src/test/resources/apis/features --frameWork=java  --specificTags=@PutRequest @CreateNewUser
+  command: echo 'All Test'
 
 testRunnerCommand: |
-  echo "Running test: $test"
-  ./gradlew test --tests APIRunner  -Dkarate.options=$test -d
+  gradle test --tests TestRunner
 
-jobLabel: ['Karate', 'API']
+jobLabel: ['Karate', 'All', 'Non-Snooper']
 
 scenarioCommandStatusOnly: true
 # For API scenarios to avoid marking of skip after execution
 
 project:
   name: Dhakshath11_KarateAPI
-  id: 01JWZPWK57VDPHGDVF2M3XHAVN
+  id: 01JV4VG45G54M7YFYVQN7T9QF0
 differentialUpload:
   enabled: true
   ttlHours: 24
@@ -48,4 +47,4 @@ cacheDirectories:
 
 pre:
   - echo "Starting Test..."
-  - ./gradlew dependencies --refresh-dependencies --gradle-user-home=.gradle --no-daemon
+  - gradle dependencies --refresh-dependencies --gradle-user-home=.gradle --no-daemon

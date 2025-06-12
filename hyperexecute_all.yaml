@@ -1,0 +1,51 @@
+version: 0.1
+runson: linux
+
+autosplit: true
+concurrency: 10
+
+alwaysRunPostSteps: true
+
+testDiscovery:
+  type: raw
+  mode: remote
+  command: /home/ltuser/snooper --featureFilePaths=src/test/resources/apis/features --frameWork=java
+
+testRunnerCommand: |
+  echo "Running test: $test"
+  gradle test --tests APIRunner  -Dkarate.options=$test -d
+
+jobLabel: ['Karate', 'All', 'Snooper']
+
+scenarioCommandStatusOnly: true
+# For API scenarios to avoid marking of skip after execution
+
+project:
+  name: Dhakshath11_KarateAPI
+  id: 01JV4VG45G54M7YFYVQN7T9QF0
+differentialUpload:
+  enabled: true
+  ttlHours: 24
+
+report: true
+partialReports:
+  location: build/karate-reports
+  type: html
+  frameworkName: karate
+
+uploadArtefacts:
+  - name: Log File
+    path:
+      - target/
+  - name: Karate Report
+    path:
+        - build/karate-reports/
+
+cacheKey: '{{ checksum "build.gradle" }}'
+cacheDirectories:
+  - .gradle
+  - gradle/wrapper
+
+pre:
+  - echo "Starting Test..."
+  - gradle dependencies --refresh-dependencies --gradle-user-home=.gradle --no-daemon

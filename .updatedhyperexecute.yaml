@@ -16,7 +16,7 @@ concurrency: 10
 cypress: false
 differentialUpload:
     enabled: true
-    forcedDisabled: true
+    forcedDisabled: false
     ttlHours: 24
 dynamicAllocation: false
 errorCategorizedOnFailureOnly: false
@@ -93,11 +93,11 @@ globalPre:
     type: ""
     workingDirectory: ""
     yamlPath: null
-jobID: b4ed39dd-51a4-4bed-95c0-92f22dcf636a
+jobID: 40aa9026-19cb-4f16-a902-9d41d0d5b518
 jobLabel:
     - Karate
     - API
-key: 9RwHg0djesLUC1oucbGGedWbzQDmvXbwHDfaPEssHGWuyeQXVU
+key: LT_ry2st1BzTpPPhWDaEnUGtdQC09Ixq5uDQV6rJ3Mpb1FxVdN
 localHTTPProxy: ""
 maxRetriesPreSteps: 0
 meta: {}
@@ -118,17 +118,17 @@ postDirectives:
     workingDirectory: ""
 pre:
     - echo "Starting Test..."
-    - ./gradlew dependencies --refresh-dependencies --gradle-user-home=.gradle --no-daemon
+    - gradle dependencies --refresh-dependencies --gradle-user-home=.gradle --no-daemon
 preDirectives:
     commands:
         - echo "Starting Test..."
-        - ./gradlew dependencies --refresh-dependencies --gradle-user-home=.gradle --no-daemon
+        - gradle dependencies --refresh-dependencies --gradle-user-home=.gradle --no-daemon
     maxRetries: 0
     shell: ""
     workingDirectory: ""
 project:
-    id: 01JWZPWK57VDPHGDVF2M3XHAVN
-    name: dddydydy
+    id: 01JV4VG45G54M7YFYVQN7T9QF0
+    name: Dhakshath11_KarateAPI
     type: custom
 projectpath: ""
 regionConfig:
@@ -153,7 +153,7 @@ testDiscovery:
 testDiscoveryResultV3: []
 testRunnerCommand: |
     echo "Running test: $test"
-    ./gradlew test --tests APIRunner  -Dkarate.options=$test -d
+    gradle test --tests APIRunner  -Dkarate.options=$test -d
 testSuites: []
 triggerMode: false
 tunnelOpts:
