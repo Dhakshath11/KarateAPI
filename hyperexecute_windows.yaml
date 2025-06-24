@@ -1,5 +1,5 @@
 version: 0.1
-runson: linux
+runson: win
 
 autosplit: true
 concurrency: 10
@@ -8,25 +8,23 @@ alwaysRunPostSteps: true
 
 runtime:
     language: java
-    version: 17
+    version: 11
 
 testDiscovery:
   type: raw
   mode: remote
   command: snooper --featureFilePaths=src/test/resources/apis/features --frameWork=java
 
-testRunnerCommand: |
-  echo "Running test: $test"
-  gradle test --tests APIRunner -Dkarate.options=$test
+testRunnerCommand: gradle test --tests APIRunner `-Dkarate.options=$test --no-daemon
 
 jobLabel: ['Karate', 'All', 'Snooper']
 
 scenarioCommandStatusOnly: true
 # For API scenarios to avoid marking of skip after execution
 
-# project:
-  # name: Dhakshath11_KarateAPI
-  # id: 01JV4VG45G54M7YFYVQN7T9QF0
+project:
+   name: Dhakshath11_KarateAPI
+   id: 01JV49A54FRP0RYJD3VWGSQYVV
 differentialUpload:
   enabled: true
   ttlHours: 24
@@ -51,5 +49,4 @@ cacheDirectories:
   - gradle/wrapper
 
 pre:
-  - echo "Starting Test..."
-  - gradle dependencies --refresh-dependencies --gradle-user-home=.gradle --no-daemon
+  - gradle dependencies --refresh-dependencies --gradle-user-home=.gradle
