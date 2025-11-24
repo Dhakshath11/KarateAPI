@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "playwright-mcp": {
+      "command": "npx hyper-mcp-server",
+      "env": {},
+      "cwd": ".",
+      "description": "MCP server for Playwright project"
+    },
+    "mcp-server": {
+      "command": "/Users/dhakshath/.cursor/extensions/lambdatest.hyperex-0.0.1-beta/mcp-server/mcp-server",
+      "cwd": ".",
+      "env": {},
+      "description": "HyperExecute MCP Server"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{"level":"warn","time":"2025-11-24T19:39:27.527+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-11-24T19:39:27.527+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-11-24T19:39:28.764+0530","caller":"cmd/bin.go:145","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-11-24T19:39:29.959+0530","caller":"cmd/bin.go:154","msg":"Upstream version details: {Name:cli Min:0.2.265 Max:0.2.317} "}
+{"level":"info","time":"2025-11-24T19:39:29.959+0530","caller":"cmd/bin.go:202","msg":"Generating TraceID for tracking request: 01KAV35CZ6132T0G4QHJT6PKDF \n"}
+{"level":"warn","time":"2025-11-24T19:39:29.961+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-11-24T19:39:29.961+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-11-24T19:39:33.069+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-11-24T19:39:33.070+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-11-24T19:39:33.070+0530","caller":"yamlconfigmanager/setup.go:726","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-11-24T19:39:33.070+0530","caller":"yamlconfigmanager/setup.go:118","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-11-24T19:39:34.692+0530","caller":"yamlconfigmanager/setup.go:2139","msg":"Autodetecting test type in files of path : /Users/dhakshath/Documents/Frameworks/Wells/KarateAPI"}
+{"level":"debug","time":"2025-11-24T19:39:34.692+0530","caller":"yamlconfigmanager/setup.go:548","msg":"Tunnel: false"}
+{"level":"info","time":"2025-11-24T19:39:34.692+0530","caller":"models/HypertestYamlConfig.go:902","msg":"\nExecution Plan"}
+{"level":"info","time":"2025-11-24T19:39:34.692+0530","caller":"models/HypertestYamlConfig.go:703","msg":"Mode:    autosplit"}
+{"level":"info","time":"2025-11-24T19:39:34.692+0530","caller":"models/HypertestYamlConfig.go:763","msg":"Runson:    linux"}
+{"level":"info","time":"2025-11-24T19:39:34.692+0530","caller":"models/HypertestYamlConfig.go:771","msg":"Concurrency:    10"}
+{"level":"info","time":"2025-11-24T19:39:34.692+0530","caller":"models/HypertestYamlConfig.go:835","msg":"Report:    enabled"}
+{"level":"info","time":"2025-11-24T19:39:34.692+0530","caller":"models/HypertestYamlConfig.go:915","msg":""}
+{"level":"debug","time":"2025-11-24T19:39:34.692+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-11-24T19:39:34.693+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-11-24T19:39:37.569+0530","caller":"core/lifecycle.go:527","msg":"Job ID: f61ec1ef-d531-4674-8da9-1470fe5e2904"}
+{"level":"debug","time":"2025-11-24T19:39:37.569+0530","caller":"core/lifecycle.go:530","msg":"User - dhakshath, triggered job with ID f61ec1ef-d531-4674-8da9-1470fe5e2904 from CLI"}
+{"level":"debug","time":"2025-11-24T19:39:37.569+0530","caller":"events/manager.go:97","msg":"Starting event manager"}
+{"level":"debug","time":"2025-11-24T19:39:37.569+0530","caller":"events/manager.go:99","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-11-24T19:39:37.570+0530","caller":"archivemanager/setup.go:339","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-11-24T19:39:37.570+0530","caller":"archivemanager/setup.go:345","msg":"Creating archive of target directory: /Users/dhakshath/Documents/Frameworks/Wells/KarateAPI"}
+{"level":"debug","time":"2025-11-24T19:39:37.597+0530","caller":"core/lifecycle.go:684","msg":"Zip file size: 68.28 kB"}
+{"level":"debug","time":"2025-11-24T19:39:37.597+0530","caller":"core/lifecycle.go:694","msg":"Archive location: /Users/dhakshath/Documents/Frameworks/Wells/KarateAPI/hyperexecute-code-f61ec1ef-d531-4674-8da9-1470fe5e2904.zip\n"}
+{"level":"debug","time":"2025-11-24T19:39:37.597+0530","caller":"storage/azure.go:59","msg":"Payload size: 68.28 kB, source path /Users/dhakshath/Documents/Frameworks/Wells/KarateAPI/hyperexecute-code-f61ec1ef-d531-4674-8da9-1470fe5e2904.zip"}
+{"level":"debug","time":"2025-11-24T19:39:38.625+0530","caller":"events/manager.go:288","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-11-24T19:39:38.629+0530","caller":"storage/azure.go:59","msg":"Payload size: 24.31 kB, source path /var/folders/d5/vhtnmxhj2cdbdlvq4jlw4dz00000gp/T/git.diff"}
+{"level":"debug","time":"2025-11-24T19:39:41.728+0530","caller":"storage/azure.go:83","msg":"Azcopy output: \n\r0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.273\r100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total,                             \nTotal time taken to upload(min) :0.0667\n, stderr: "}
+{"level":"info","time":"2025-11-24T19:39:41.728+0530","caller":"storage/azure.go:116","msg":"File: /Users/dhakshath/Documents/Frameworks/Wells/KarateAPI/hyperexecute-code-f61ec1ef-d531-4674-8da9-1470fe5e2904.zip upload completed in 4.130507333s"}
+{"level":"debug","time":"2025-11-24T19:39:41.728+0530","caller":"receptionmanager/setup.go:281","msg":"only one runtime entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-11-24T19:39:41.729+0530","caller":"receptionmanager/setup.go:310","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-11-24T19:39:41.729+0530","caller":"receptionmanager/setup.go:185","msg":"Uploading yaml : /Users/dhakshath/Documents/Frameworks/Wells/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-11-24T19:39:41.729+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.07 kB, source path /Users/dhakshath/Documents/Frameworks/Wells/KarateAPI/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-11-24T19:39:42.660+0530","caller":"storage/azure.go:83","msg":"Azcopy output: \n\r0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0972\r100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total,                              \nTotal time taken to upload(min) :0.0667\n, stderr: "}
+{"level":"info","time":"2025-11-24T19:39:42.660+0530","caller":"storage/azure.go:116","msg":"File: /var/folders/d5/vhtnmxhj2cdbdlvq4jlw4dz00000gp/T/git.diff upload completed in 4.031196333s"}
+{"level":"debug","time":"2025-11-24T19:39:43.758+0530","caller":"storage/azure.go:83","msg":"Azcopy output: \n\r100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0163\nTotal time taken to upload(min) :0.0333\n, stderr: "}
+{"level":"info","time":"2025-11-24T19:39:43.758+0530","caller":"storage/azure.go:116","msg":"File: /Users/dhakshath/Documents/Frameworks/Wells/KarateAPI/.updatedhyperexecute.yaml upload completed in 2.0292155s"}
+{"level":"debug","time":"2025-11-24T19:39:43.758+0530","caller":"core/lifecycle.go:721","msg":"Successfully deleted code archive: /Users/dhakshath/Documents/Frameworks/Wells/KarateAPI/hyperexecute-code-f61ec1ef-d531-4674-8da9-1470fe5e2904.zip\n"}
+{"level":"debug","time":"2025-11-24T19:39:43.759+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.59 kB, source path mask-f61ec1ef-d531-4674-8da9-1470fe5e2904.yaml"}
+{"level":"debug","time":"2025-11-24T19:39:47.791+0530","caller":"storage/azure.go:83","msg":"Azcopy output: \n\r100.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0104\r100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total,                                \nTotal time taken to upload(min) :0.0667\n, stderr: "}
+{"level":"info","time":"2025-11-24T19:39:47.791+0530","caller":"storage/azure.go:116","msg":"File: mask-f61ec1ef-d531-4674-8da9-1470fe5e2904.yaml upload completed in 4.032101708s"}
+{"level":"debug","time":"2025-11-24T19:39:49.629+0530","caller":"core/lifecycle.go:836","msg":"Job progress won't be tracked as no-track flag is set true"}
+{"level":"debug","time":"2025-11-24T19:39:49.629+0530","caller":"core/lifecycle.go:918","msg":"Context canceled"}
+{"level":"info","time":"2025-11-24T19:39:49.629+0530","caller":"events/manager.go:338","msg":"context done and stopping SSE"}
+{"level":"info","time":"2025-11-24T19:39:49.629+0530","caller":"core/lifecycle.go:921","msg":"Stopping pipeline gracefully"}
+{"level":"debug","time":"2025-11-24T19:39:49.629+0530","caller":"events/manager.go:256","msg":"Stopping event manager"}
+{"level":"info","time":"2025-11-24T19:39:49.629+0530","caller":"jobmanager/manager.go:138","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=f61ec1ef-d531-4674-8da9-1470fe5e2904\n"}
+{"level":"debug","time":"2025-11-24T19:39:49.629+0530","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-11-24T19:39:49.629+0530","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-11-24T19:39:49.629+0530","caller":"core/lifecycle.go:63","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-11-24T19:39:49.629+0530","caller":"cmd/bin.go:361","msg":"main: all goroutines have finished."}

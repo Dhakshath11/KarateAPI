@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+ testImplementation 'com.intuit.karate:karate-junit5:1.4.1'
     // https://mvnrepository.com/artifact/com.intuit.karate/karate-junit5
     testImplementation('com.intuit.karate:karate-junit5:1.4.1')
 }

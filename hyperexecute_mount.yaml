@@ -1,0 +1,65 @@
+version: 0.1
+runson: linux
+
+autosplit: true
+concurrency: 1
+
+alwaysRunPostSteps: true
+
+runtime:
+    language: java
+    version: 17
+
+testDiscovery:
+  type: raw
+  mode: dynamic
+  command: echo test
+
+testRunnerCommand: |
+  echo "Running test: $test"
+  gradle test --tests APIRunner  `-Dkarate.options="src/test/resources/apis/features/DeleteRequest.feature:10" --no-daemon
+
+jobLabel: ['Karate', 'All', 'Snooper']
+
+scenarioCommandStatusOnly: true
+# For API scenarios to avoid marking of skip after execution
+
+# project:
+  # name: Dhakshath11_KarateAPI
+  # id: 01JV4VG45G54M7YFYVQN7T9QF0
+differentialUpload:
+  enabled: true
+  ttlHours: 24
+
+report: true
+partialReports:
+  location: build/karate-reports
+  type: html
+  frameworkName: karate
+
+uploadArtefacts:
+  - name: Log File
+    path:
+      - target/
+  - name: Karate Report
+    path:
+        - build/karate-reports/
+
+cacheKey: '{{ checksum "build.gradle" }}'
+cacheDirectories:
+  - .gradle
+  - gradle/wrapper
+
+pre:
+  # - echo "Starting Test..."
+  # - gradle dependencies --refresh-dependencies --gradle-user-home=.gradle --no-daemon
+  - curl -I http://172.19.240.1/Users/ltuser.ghtestVM/Desktop/dalbir_runner
+  - sudo apt update; sudo apt install cifs-utils
+  - sudo mkdir -p /mnt/dalbir_share; sudo mount -t cifs //172.19.240.1/dalbir_runner /mnt/dalbir_share -o username=ltuser,password=#lambdapass123#
+  - df -h; ls /mnt/dalbir_share
+
+post:
+  - echo "Test completed"
+  - sudo umount /mnt/samba_public
+
+

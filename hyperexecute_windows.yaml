@@ -31,7 +31,7 @@ differentialUpload:
 
 report: true
 partialReports:
-  location: build/karate-reports
+  location: build/
   type: html
   frameworkName: karate
 
